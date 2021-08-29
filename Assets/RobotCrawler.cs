@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+[RequireComponent (typeof(NavMeshAgent))]
 public class RobotCrawler : MonoBehaviour
 {
     NavMeshAgent agent;
@@ -10,7 +11,23 @@ public class RobotCrawler : MonoBehaviour
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        agent.SetDestination(new Vector3(Random.Range(25f, 100f), 0, Random.Range(25f, 100f)));
+       
     }
 
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Plane plane = new Plane(Vector3.up, 0);
+
+            float distance;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (plane.Raycast(ray, out distance))
+            {
+                agent.SetDestination(ray.GetPoint(distance));
+            }
+
+        }
+    }
 }
