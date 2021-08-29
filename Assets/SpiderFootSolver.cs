@@ -12,7 +12,7 @@ public class SpiderFootSolver : MonoBehaviour
     public float stepHeight = 0.1f;
     public bool bodyOrientation = true;
 
-    private float raycastRange = 1f;
+    private float raycastRange = 3f;
     private Vector3[] defaultLegPositions;
     private Vector3[] lastLegPositions;
     private Vector3 lastBodyUp;
