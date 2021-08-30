@@ -15,11 +15,11 @@ P:/Unity/IK Robots/IK-Robots
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55889
+57880
 Successfully changed project path to: P:/Unity/IK Robots/IK-Robots
 P:/Unity/IK Robots/IK-Robots
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 45.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -31,41 +31,43 @@ Direct3D:
     Vendor:   
     VRAM:     8079 MB
     Driver:   27.21.14.5751
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001697 seconds.
+Registered in 0.001744 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 46.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.886 seconds
+- Completed reload, in  0.882 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002204 seconds.
+Registered in 0.002829 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.314 seconds
+- Completed reload, in  1.493 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1789 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.4 MB.
-System memory in use after: 98.5 MB.
+Unloading 2883 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.1 MB.
+System memory in use after: 140.3 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2239.
-Total: 2.595300 ms (FindLiveObjects: 0.317200 ms CreateObjectMapping: 0.053100 ms MarkObjects: 2.076200 ms  DeleteObjects: 0.147700 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3333.
+Total: 2.957900 ms (FindLiveObjects: 0.320700 ms CreateObjectMapping: 0.075000 ms MarkObjects: 2.398400 ms  DeleteObjects: 0.162500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,62 +81,174 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Fonts/FFFFORWA.TTF
-  artifactKey: Guid(1c5ef86bca8f8b046a168e61b4102977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/FFFFORWA.TTF using Guid(1c5ef86bca8f8b046a168e61b4102977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec59213232873f0c4aa0a9a5c4ec1a68') in 0.088183 seconds 
-  Import took 0.104404 seconds .
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(703ac2d7a55210241b1b6bcdf5c083a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(703ac2d7a55210241b1b6bcdf5c083a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610d25790dbf61b2ab47d11ffc2fe229') in 0.058432 seconds 
+  Import took 0.063408 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.659131 seconds.
-  path: Assets/Fonts/FFFFORWA SDF.asset
-  artifactKey: Guid(97b9b1de8185a7f4eabd6423eab89bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/FFFFORWA SDF.asset using Guid(97b9b1de8185a7f4eabd6423eab89bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84176cf396ddfe24cccb6154b7032a1a') in 0.041476 seconds 
-  Import took 0.044064 seconds .
+  Time since last request: 0.000153 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(4eef217f11cbbf9479c1a25d1fcea305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(4eef217f11cbbf9479c1a25d1fcea305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5e1f20e6e9dd3c6883b349cbfe3bfe') in 0.018595 seconds 
+  Import took 0.022402 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.092984 seconds.
-  path: Assets/Fonts/Glow FFFFORWA SDF.asset
-  artifactKey: Guid(97b9b1de8185a7f4eabd6423eab89bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Glow FFFFORWA SDF.asset using Guid(97b9b1de8185a7f4eabd6423eab89bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cd8425578fb2bc6ac43d0e296f11d9') in 0.017884 seconds 
-  Import took 0.133583 seconds .
+  Time since last request: 5.637519 seconds.
+  path: Assets/URP
+  artifactKey: Guid(60530b6fead324a4ba3107fa3f68b260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP using Guid(60530b6fead324a4ba3107fa3f68b260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23857e987be4bb7a67c97d3fc21c0fa7') in 0.006570 seconds 
+  Import took 0.010801 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 73.261305 seconds.
-  path: Assets/Fonts/Glow FFFFORWA SDF.asset
-  artifactKey: Guid(97b9b1de8185a7f4eabd6423eab89bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Glow FFFFORWA SDF.asset using Guid(97b9b1de8185a7f4eabd6423eab89bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da378da4fd09178f7a1efedbd227e6b') in 0.019598 seconds 
-  Import took 0.022399 seconds .
+  Time since last request: 0.000522 seconds.
+  path: Assets/URP
+  artifactKey: Guid(60530b6fead324a4ba3107fa3f68b260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP using Guid(60530b6fead324a4ba3107fa3f68b260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23857e987be4bb7a67c97d3fc21c0fa7') in 0.001178 seconds 
+  Import took 0.005032 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 93.451422 seconds.
-  path: Assets/Fonts/Glow FFFFORWA SDF.asset
-  artifactKey: Guid(97b9b1de8185a7f4eabd6423eab89bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Glow FFFFORWA SDF.asset using Guid(97b9b1de8185a7f4eabd6423eab89bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a98d04724bbcf841f37847594abfef') in 0.022494 seconds 
-  Import took 0.025341 seconds .
+  Time since last request: 4.616765 seconds.
+  path: Assets/URP/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(4eef217f11cbbf9479c1a25d1fcea305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP/UniversalRenderPipelineAsset_Renderer.asset using Guid(4eef217f11cbbf9479c1a25d1fcea305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792d396ab134ddbbb6e97d7aa051bf19') in 0.008311 seconds 
+  Import took 0.012676 seconds .
+
+========================================================================
+Received Prepare
+Switching render pipeline 00000000000000000000000000000000 -> 703ac2d7a55210241b1b6bcdf5c083a5
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 82.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3381.
+Total: 2.639500 ms (FindLiveObjects: 0.263000 ms CreateObjectMapping: 0.073900 ms MarkObjects: 2.288400 ms  DeleteObjects: 0.013500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 77.944754 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(dc7a2902af687c143b648ab8e5fc84fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(dc7a2902af687c143b648ab8e5fc84fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c59f108ccf735600c7bdfa58bce9d7') in 0.021399 seconds 
+  Import took 0.026229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001105 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(dc7a2902af687c143b648ab8e5fc84fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(dc7a2902af687c143b648ab8e5fc84fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c59f108ccf735600c7bdfa58bce9d7') in 0.005703 seconds 
+  Import took 0.009575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.382071 seconds.
+  path: Assets/Models/Robots/RobotBody.fbx
+  artifactKey: Guid(2b57f5bf755703a488677287361f3dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Robots/RobotBody.fbx using Guid(2b57f5bf755703a488677287361f3dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e469d9addc505d5521e2c1f14416d360') in 0.455689 seconds 
+  Import took 0.460084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Models/Robots/SpiderBody.fbx
+  artifactKey: Guid(d87f1fa226168b343bd723ee56920853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Robots/SpiderBody.fbx using Guid(d87f1fa226168b343bd723ee56920853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ddb856bdbd63ebf2bc47077fc0c2e7') in 0.012170 seconds 
+  Import took 0.016554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Models/Robots/Spider2GameRigged.fbx
+  artifactKey: Guid(06387a425472def40b9aaca2cc0607b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Robots/Spider2GameRigged.fbx using Guid(06387a425472def40b9aaca2cc0607b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f380d0a4936e062802eb10dce37f535') in 0.084415 seconds 
+  Import took 0.088717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Models/Robots/RobotCrawlerLegF.fbx
+  artifactKey: Guid(f8c5bec5426ac2a4394bc3741988a904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Robots/RobotCrawlerLegF.fbx using Guid(f8c5bec5426ac2a4394bc3741988a904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b032dcb44b12daba1876bdaacd63b88') in 0.040516 seconds 
+  Import took 0.044598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.588750 seconds.
+  path: Assets/Models/Robots/Spider2GameRigged.fbx
+  artifactKey: Guid(06387a425472def40b9aaca2cc0607b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Robots/Spider2GameRigged.fbx using Guid(06387a425472def40b9aaca2cc0607b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d2b012eda34022369a50125fc9d310') in 0.074796 seconds 
+  Import took 0.079195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.469088 seconds.
+  path: Assets/Models/Robots/Spider2GameRigged.fbx
+  artifactKey: Guid(06387a425472def40b9aaca2cc0607b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Robots/Spider2GameRigged.fbx using Guid(06387a425472def40b9aaca2cc0607b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055a4be41aa848192fb366cb3b9f3719') in 0.080410 seconds 
+  Import took 0.084766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.395952 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(3d1a84875b17454419e6a16a227f0855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(3d1a84875b17454419e6a16a227f0855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcd3d76ef5336ca60cc63665f6baea8') in 0.007117 seconds 
+  Import took 0.011323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(3d1a84875b17454419e6a16a227f0855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(3d1a84875b17454419e6a16a227f0855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcd3d76ef5336ca60cc63665f6baea8') in 0.001463 seconds 
+  Import took 0.005553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.371593 seconds.
+  path: Assets/Materials/TempMaterial.mat
+  artifactKey: Guid(ebac4e504189c624b840f1b591b3d7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TempMaterial.mat using Guid(ebac4e504189c624b840f1b591b3d7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea7f31bf10a5d04c9c7d9bafc227e40') in 0.017272 seconds 
+  Import took 0.022228 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002204 seconds.
+Registered in 0.002767 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
+- Completed reload, in  1.096 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1769 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.4 MB.
-System memory in use after: 100.5 MB.
+Unloading 2814 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.5 MB.
+System memory in use after: 157.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2286.
-Total: 2.298300 ms (FindLiveObjects: 0.298500 ms CreateObjectMapping: 0.058300 ms MarkObjects: 1.926400 ms  DeleteObjects: 0.014100 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3473.
+Total: 2.366700 ms (FindLiveObjects: 0.301600 ms CreateObjectMapping: 0.072300 ms MarkObjects: 1.974100 ms  DeleteObjects: 0.017400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -146,4 +260,35 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 412.571997 seconds.
+  path: Assets/Spider2GameRigged.prefab
+  artifactKey: Guid(913cfd4284f698c4fa3df72037fa018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spider2GameRigged.prefab using Guid(913cfd4284f698c4fa3df72037fa018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a8f86526913b12d1e983b8d14d65b8') in 0.155208 seconds 
+  Import took 0.856802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.503475 seconds.
+  path: Assets/Prefabs/RobotCrawlerLeg.prefab
+  artifactKey: Guid(032dcc5ffd4fb8a4c902e46ca1dbad4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RobotCrawlerLeg.prefab using Guid(032dcc5ffd4fb8a4c902e46ca1dbad4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1498ec60d4a6bf40fb171396d8e52ac') in 0.076482 seconds 
+  Import took 0.080730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Prefabs/RobotCrawlerLegF.prefab
+  artifactKey: Guid(251629dc085d9824487d48fdb8740cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RobotCrawlerLegF.prefab using Guid(251629dc085d9824487d48fdb8740cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8735132d529955fcb1cb64f53d8feb') in 0.013186 seconds 
+  Import took 0.017011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.058824 seconds.
+  path: Assets/Prefabs/Spider2GameRigged.prefab
+  artifactKey: Guid(bb83849615663f846b9432cbcfe061f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spider2GameRigged.prefab using Guid(bb83849615663f846b9432cbcfe061f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abce90357af95c0776e8535a4135cb3c') in 0.047974 seconds 
+  Import took 0.053159 seconds .
+
