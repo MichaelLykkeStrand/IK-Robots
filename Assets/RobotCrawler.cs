@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,8 @@ using UnityEngine.AI;
 [RequireComponent (typeof(NavMeshAgent))]
 public class RobotCrawler : MonoBehaviour
 {
+
+    public event EventHandler<OnNewTargetEventArgs> OnNewTargetEvent;
     NavMeshAgent agent;
 
     private void Start()
@@ -25,9 +28,18 @@ public class RobotCrawler : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (plane.Raycast(ray, out distance))
             {
-                agent.SetDestination(ray.GetPoint(distance));
+                Vector3 targetPos = ray.GetPoint(distance);
+                agent.SetDestination(targetPos);
+                OnNewTargetEventArgs eventArgs = new OnNewTargetEventArgs();
+                eventArgs.Target = targetPos;
+                OnNewTargetEvent?.Invoke(this, eventArgs);
             }
 
         }
+    }
+
+    public class OnNewTargetEventArgs : EventArgs
+    {
+        public Vector3 Target { get; set; }
     }
 }
