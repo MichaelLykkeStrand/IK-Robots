@@ -23,7 +23,6 @@ public class YRotationTargetTracker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
         if(target != null)
         {
             float distance = Vector3.Distance(transform.position, target);
