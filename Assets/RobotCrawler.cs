@@ -14,7 +14,7 @@ public class RobotCrawler : MonoBehaviour
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-       
+        
     }
 
 
