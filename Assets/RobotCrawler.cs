@@ -7,7 +7,7 @@ using UnityEngine.AI;
 [RequireComponent (typeof(NavMeshAgent))]
 public class RobotCrawler : MonoBehaviour
 {
-
+    [SerializeField]private float distance = 500f;
     public event EventHandler<OnNewTargetEventArgs> OnNewTargetEvent;
     NavMeshAgent agent;
 
@@ -22,16 +22,17 @@ public class RobotCrawler : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Plane plane = new Plane(Vector3.up, 0);
-
-            float distance;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (plane.Raycast(ray, out distance))
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit, distance))
             {
-                Vector3 targetPos = ray.GetPoint(distance);
-                agent.SetDestination(targetPos);
+                agent.SetDestination(hit.point);
+                //draw invisible ray cast/vector
+                Debug.DrawLine(ray.origin, hit.point);
+                //log hit area to the console
+                Debug.Log(hit.point);
                 OnNewTargetEventArgs eventArgs = new OnNewTargetEventArgs();
-                eventArgs.Target = targetPos;
+                eventArgs.Target = hit.point;
                 OnNewTargetEvent?.Invoke(this, eventArgs);
             }
 
