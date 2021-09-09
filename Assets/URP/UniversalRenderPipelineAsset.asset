@@ -17,7 +17,7 @@ MonoBehaviour:
   m_RendererType: 1
   m_RendererData: {fileID: 0}
   m_RendererDataList:
-  - {fileID: 11400000, guid: 4eef217f11cbbf9479c1a25d1fcea305, type: 2}
+  - {fileID: 11400000, guid: 4a8e21d5c33334b11b34a596161b9360, type: 2}
   m_DefaultRendererIndex: 0
   m_RequireDepthTexture: 1
   m_RequireOpaqueTexture: 0
@@ -31,13 +31,13 @@ MonoBehaviour:
   m_MainLightShadowmapResolution: 2048
   m_AdditionalLightsRenderingMode: 1
   m_AdditionalLightsPerObjectLimit: 4
-  m_AdditionalLightShadowsSupported: 0
-  m_AdditionalLightsShadowmapResolution: 512
+  m_AdditionalLightShadowsSupported: 1
+  m_AdditionalLightsShadowmapResolution: 1024
   m_ShadowDistance: 50
   m_ShadowCascadeCount: 4
   m_Cascade2Split: 0.25
   m_Cascade3Split: {x: 0.204, y: 0.3}
-  m_Cascade4Split: {x: 0.144, y: 0.25, z: 0.374}
+  m_Cascade4Split: {x: 0.517, y: 0.72099996, z: 0.943}
   m_ShadowDepthBias: 2
   m_ShadowNormalBias: 1
   m_SoftShadowsSupported: 1

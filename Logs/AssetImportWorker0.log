@@ -15,11 +15,11 @@ P:/Unity/IK Robots/IK-Robots
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55807
+51346
 Successfully changed project path to: P:/Unity/IK Robots/IK-Robots
 P:/Unity/IK Robots/IK-Robots
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -36,747 +36,38 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001721 seconds.
+Registered in 0.002948 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 52.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.878 seconds
+- Completed reload, in  1.058 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002815 seconds.
+Registered in 0.003406 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.370 seconds
+- Completed reload, in  1.440 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.0 MB.
-System memory in use after: 152.2 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3397.
-Total: 2.389400 ms (FindLiveObjects: 0.287600 ms CreateObjectMapping: 0.089400 ms MarkObjects: 1.920000 ms  DeleteObjects: 0.091600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Shaders/Grass.mat
-  artifactKey: Guid(a6d2c5d9ee2108a46ac57f711637ddd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Grass.mat using Guid(a6d2c5d9ee2108a46ac57f711637ddd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20767d6c07be2e717ea3b7e249bdbe54') in 0.173564 seconds 
-  Import took 0.188665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Shaders/Sharp Grass.mat
-  artifactKey: Guid(1b4ad8ca7712a3848b0c3e887f3568b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Sharp Grass.mat using Guid(1b4ad8ca7712a3848b0c3e887f3568b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87479dea91deb24ec1f96e45fdaa4841') in 0.009247 seconds 
-  Import took 0.032843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Shaders/Wheat Ground.mat
-  artifactKey: Guid(fa82f68aa971c6541bb6fd7674e2f2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Wheat Ground.mat using Guid(fa82f68aa971c6541bb6fd7674e2f2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b451493768b54ea4ffaf04d659b4b3a') in 0.010328 seconds 
-  Import took 0.017400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Shaders/Grass Ground.mat
-  artifactKey: Guid(6c33f10a3cfeda74b9d8db4a76e4f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Grass Ground.mat using Guid(6c33f10a3cfeda74b9d8db4a76e4f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1caa0deb256e7ebbf00e8debe412bfc') in 0.008523 seconds 
-  Import took 0.020113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Shaders/WaterDistortion.png
-  artifactKey: Guid(1ed45cd465dcc0c459bb1e153cd5fbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/WaterDistortion.png using Guid(1ed45cd465dcc0c459bb1e153cd5fbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f36a4030ee0b2f3b354076a104c509') in 0.034132 seconds 
-  Import took 0.048362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Shaders/Wheat.mat
-  artifactKey: Guid(0e8989b6330079a4080af49f02307840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Wheat.mat using Guid(0e8989b6330079a4080af49f02307840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf7da58118349660bb3c17ea6e81def') in 0.008555 seconds 
-  Import took 0.027757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.734189 seconds.
-  path: Assets/Shaders/Grass Ground 1.mat
-  artifactKey: Guid(7ddcdda381b4053479b05bbf92ef78b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Grass Ground 1.mat using Guid(7ddcdda381b4053479b05bbf92ef78b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947d4c64d9b264ba449798309ac97be3') in 0.009636 seconds 
-  Import took 0.014095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.395034 seconds.
-  path: Assets/Shaders/MyGrass.mat
-  artifactKey: Guid(f5e909acfa0be124caf7f431cdb0f95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/MyGrass.mat using Guid(f5e909acfa0be124caf7f431cdb0f95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e57eea6242e63e17c68120ec8d28ff') in 0.012060 seconds 
-  Import took 0.016873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.924670 seconds.
-  path: Assets/Shaders/Grass.mat
-  artifactKey: Guid(a6d2c5d9ee2108a46ac57f711637ddd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Grass.mat using Guid(a6d2c5d9ee2108a46ac57f711637ddd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b0c47c62d21b938b0c4c787d0c86b2') in 0.009187 seconds 
-  Import took 0.027834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 130.081612 seconds.
-  path: Assets/Shaders
-  artifactKey: Guid(9e0d496b53173e7459673de235a7a3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders using Guid(9e0d496b53173e7459673de235a7a3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c57257fbce6a5b4bd5bc06258c7e75') in 0.012473 seconds 
-  Import took 0.037176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 141.334341 seconds.
-  path: Assets/Shaders/URPGrass.shader
-  artifactKey: Guid(d96a1b77a3710a54390852acc53664ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/URPGrass.shader using Guid(d96a1b77a3710a54390852acc53664ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6ce32bb16903583d1458d8fa783cb2') in 0.008035 seconds 
-  Import took 0.026254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006528 seconds.
-  path: Assets/Shaders/URPGrass.shader
-  artifactKey: Guid(d96a1b77a3710a54390852acc53664ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/URPGrass.shader using Guid(d96a1b77a3710a54390852acc53664ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6ce32bb16903583d1458d8fa783cb2') in 0.002240 seconds 
-  Import took 0.006188 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002718 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.011 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.6 MB.
-System memory in use after: 148.8 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3479.
-Total: 2.276300 ms (FindLiveObjects: 0.248400 ms CreateObjectMapping: 0.072200 ms MarkObjects: 1.856600 ms  DeleteObjects: 0.098000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 122.599594 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0013.png
-  artifactKey: Guid(4ba908f9d429d7b4ba9672ac2021a87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0013.png using Guid(4ba908f9d429d7b4ba9672ac2021a87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331f7bd918c82125901a5340e73cc862') in 0.043925 seconds 
-  Import took 0.149253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.746654 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0001.png
-  artifactKey: Guid(b6c9bdd4c2948a343b932d2f72cd6377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0001.png using Guid(b6c9bdd4c2948a343b932d2f72cd6377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78444691ce84112555942ee418193cec') in 0.010051 seconds 
-  Import took 0.026569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0012.png
-  artifactKey: Guid(793c1655135b19945a0be5f6a194d4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0012.png using Guid(793c1655135b19945a0be5f6a194d4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d7c1093418ee106b9f167d798621a3') in 0.008856 seconds 
-  Import took 0.012849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0041.png
-  artifactKey: Guid(589e969b37d729d4d865cfef00cdc7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0041.png using Guid(589e969b37d729d4d865cfef00cdc7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b28f06e44d776881ae31ad245817e1') in 0.009896 seconds 
-  Import took 0.013915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0044.png
-  artifactKey: Guid(23c508234cd534a42b6a94d8cb80ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0044.png using Guid(23c508234cd534a42b6a94d8cb80ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a793b7a89e4a836137ce8866c6d0b4') in 0.008145 seconds 
-  Import took 0.039545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0049.png
-  artifactKey: Guid(9fab6f39fe97e6642b299c2f6baf4d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0049.png using Guid(9fab6f39fe97e6642b299c2f6baf4d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f935bd89a686a2b897ffb280b2cf57e5') in 0.009065 seconds 
-  Import took 0.012909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0005.png
-  artifactKey: Guid(92d8694fc7d735e4399d201239a6c5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0005.png using Guid(92d8694fc7d735e4399d201239a6c5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b415d2146ccbd12c423c4960e01b612') in 0.008717 seconds 
-  Import took 0.035727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0011.png
-  artifactKey: Guid(d3b2d30dfbcbdf844aea3fb9f955ce0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0011.png using Guid(d3b2d30dfbcbdf844aea3fb9f955ce0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d284dffa3850d1869359c8d42f2f4d') in 0.010349 seconds 
-  Import took 0.014278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0001.png
-  artifactKey: Guid(b6c9bdd4c2948a343b932d2f72cd6377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0001.png using Guid(b6c9bdd4c2948a343b932d2f72cd6377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78444691ce84112555942ee418193cec') in 0.005791 seconds 
-  Import took 0.009973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0033.png
-  artifactKey: Guid(39124d0005fd5e9499e7696c091e03a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0033.png using Guid(39124d0005fd5e9499e7696c091e03a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1690253b5b72889d9a4efc07dfa045b') in 0.008791 seconds 
-  Import took 0.013147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0046.png
-  artifactKey: Guid(febb1b15e557fc443923fba52aa1b735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0046.png using Guid(febb1b15e557fc443923fba52aa1b735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a388f8ddb63f087c0bc9df70181bcf9') in 0.008779 seconds 
-  Import took 0.012764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0034.png
-  artifactKey: Guid(3cf6f40182213294aba2e1b58d904f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0034.png using Guid(3cf6f40182213294aba2e1b58d904f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812de713d888e1e74c949a0396ccf460') in 0.008040 seconds 
-  Import took 0.023182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0030.png
-  artifactKey: Guid(76a50b7c60c330043a32136baf101972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0030.png using Guid(76a50b7c60c330043a32136baf101972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc553500a6d66fbb301d874c514f9ca') in 0.009303 seconds 
-  Import took 0.022536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0019.png
-  artifactKey: Guid(f149bb0ae49ada44bbe7a3367c706d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0019.png using Guid(f149bb0ae49ada44bbe7a3367c706d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05cd224439ea0f4926b120096abcc76') in 0.008240 seconds 
-  Import took 0.012213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0035.png
-  artifactKey: Guid(6c87d81a58f624a4d81d7b230b5a093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0035.png using Guid(6c87d81a58f624a4d81d7b230b5a093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577b092560590efeea6a2d72d9d4a71f') in 0.008891 seconds 
-  Import took 0.012679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0053.png
-  artifactKey: Guid(db2f3199e0db78a458af99bb16b2f70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0053.png using Guid(db2f3199e0db78a458af99bb16b2f70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56da82a75a3476260c802726aadb545a') in 0.008929 seconds 
-  Import took 0.016132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0021.png
-  artifactKey: Guid(235f452d64c6e404882f40493a1e2d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0021.png using Guid(235f452d64c6e404882f40493a1e2d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7486b41aa5ee2dc82debd30b26243d8c') in 0.008901 seconds 
-  Import took 0.025190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0031.png
-  artifactKey: Guid(f45ef671597980e44ae5226fec52b21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0031.png using Guid(f45ef671597980e44ae5226fec52b21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82aa05a3409ab4692fcd940ffe9b6c4c') in 0.009813 seconds 
-  Import took 0.025210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0008.png
-  artifactKey: Guid(1de46f6f092b4dd4686146431f2b5051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0008.png using Guid(1de46f6f092b4dd4686146431f2b5051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7b29515ac5b9a875d8c0749a1fee95') in 0.009432 seconds 
-  Import took 0.025049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0023.png
-  artifactKey: Guid(b4f9e2e9e35cf7b409a7fc0bec4eff78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0023.png using Guid(b4f9e2e9e35cf7b409a7fc0bec4eff78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64932e1af1edde0ad398954f3f93956') in 0.008747 seconds 
-  Import took 0.012752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0007.png
-  artifactKey: Guid(3e19af442075d0845938165f458fea68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0007.png using Guid(3e19af442075d0845938165f458fea68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0dd8c030c90ef949d4703ce3176e9a7') in 0.008833 seconds 
-  Import took 0.025309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0009.png
-  artifactKey: Guid(57046dca399299645a0918939c2c7164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0009.png using Guid(57046dca399299645a0918939c2c7164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2429debfd09ef301858b5c8f4128135c') in 0.008891 seconds 
-  Import took 0.013330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0043.png
-  artifactKey: Guid(9c7e56de400012a42b7c0637478983fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0043.png using Guid(9c7e56de400012a42b7c0637478983fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdd164f5360e0dc17dbb565e08a6de1') in 0.009105 seconds 
-  Import took 0.013342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0050.png
-  artifactKey: Guid(78f43f5dacaab78439a49a379241db2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0050.png using Guid(78f43f5dacaab78439a49a379241db2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20667d6fef5c4d9baffd691766919720') in 0.008994 seconds 
-  Import took 0.012870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0040.png
-  artifactKey: Guid(17248d267712a4a4a8ab0f489020accd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0040.png using Guid(17248d267712a4a4a8ab0f489020accd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a7fe72d10d93bc751ca9fc21b3aa46') in 0.008380 seconds 
-  Import took 0.012445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0017.png
-  artifactKey: Guid(d051657e22e12fe4393c7aeb33754a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0017.png using Guid(d051657e22e12fe4393c7aeb33754a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5965b9ecb3e95bb67db54e5cf3043ee7') in 0.008952 seconds 
-  Import took 0.013239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0039.png
-  artifactKey: Guid(06e06f4332346f743a46da869adab28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0039.png using Guid(06e06f4332346f743a46da869adab28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23db387595a912f7c535e4132a43d2ad') in 0.008705 seconds 
-  Import took 0.012481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0018.png
-  artifactKey: Guid(894675ead23ec754b973245f7f37060f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0018.png using Guid(894675ead23ec754b973245f7f37060f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6b7786ded4dc3b31d361658e0045f6') in 0.009081 seconds 
-  Import took 0.013380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0032.png
-  artifactKey: Guid(d18d6a6a440e3c246af8f810dc764147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0032.png using Guid(d18d6a6a440e3c246af8f810dc764147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759d8f7d5d1349c1fa6facc32156a39b') in 0.008967 seconds 
-  Import took 0.013178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0045.png
-  artifactKey: Guid(0e5ba24e8c6c4004d98296e4254bef99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0045.png using Guid(0e5ba24e8c6c4004d98296e4254bef99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a9f5c4de71337e79eb70827b9af097') in 0.008417 seconds 
-  Import took 0.012182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0006.png
-  artifactKey: Guid(6a837a3fdde92f24f92dfdfd12a6c68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0006.png using Guid(6a837a3fdde92f24f92dfdfd12a6c68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067a7745e1fc70e345b67cc11e40e31f') in 0.008783 seconds 
-  Import took 0.012679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0037.png
-  artifactKey: Guid(e95bce8b3bc97574fad36d87f3d7f126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0037.png using Guid(e95bce8b3bc97574fad36d87f3d7f126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fecc8bb2a6a17218df36b64d6ce3ff6') in 0.009013 seconds 
-  Import took 0.025312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0029.png
-  artifactKey: Guid(f52f5d6e330f8b6448df9c6e21a59dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0029.png using Guid(f52f5d6e330f8b6448df9c6e21a59dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774bb7779c71e51630ed1684c25bc0ca') in 0.007835 seconds 
-  Import took 0.011713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0025.png
-  artifactKey: Guid(a798381810116244a892991893d5ae30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0025.png using Guid(a798381810116244a892991893d5ae30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4255144aff224adcd04c49e42c57f1') in 0.008727 seconds 
-  Import took 0.024873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0002.png
-  artifactKey: Guid(3553c4a822629cc4991249e3c7d55350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0002.png using Guid(3553c4a822629cc4991249e3c7d55350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ec7cd2cbcb049289aa405afa2439de') in 0.008559 seconds 
-  Import took 0.012908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0014.png
-  artifactKey: Guid(dea48447e0750b844971c84dab0f7324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0014.png using Guid(dea48447e0750b844971c84dab0f7324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b74839974c67293f69bf84a3f5f6ff') in 0.008738 seconds 
-  Import took 0.012974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0028.png
-  artifactKey: Guid(f020b81158409c74d94b2869889237bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0028.png using Guid(f020b81158409c74d94b2869889237bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1613a649d763abeebe88e6cb6070e0') in 0.008353 seconds 
-  Import took 0.025425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0022.png
-  artifactKey: Guid(e6785291456660847aeba81645ab9d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0022.png using Guid(e6785291456660847aeba81645ab9d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a85a213005b5a3665c812ddd1daf1e') in 0.008635 seconds 
-  Import took 0.026305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0048.png
-  artifactKey: Guid(9960fd56fd68f3142b7b4d06fd8346a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0048.png using Guid(9960fd56fd68f3142b7b4d06fd8346a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413c85c6a9b66dc8c7019660be65130c') in 0.008545 seconds 
-  Import took 0.022825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0015.png
-  artifactKey: Guid(c6b229c7701f8a6458a45efef30447d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0015.png using Guid(c6b229c7701f8a6458a45efef30447d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68720f62aa4c06e8690a2f81a41a31b') in 0.008786 seconds 
-  Import took 0.013059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0057.png
-  artifactKey: Guid(a41aebe694fb8be4d8cbdcf8ac4ed438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0057.png using Guid(a41aebe694fb8be4d8cbdcf8ac4ed438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8748a0e8fd84840532a48259c2284e') in 0.008422 seconds 
-  Import took 0.020613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0054.png
-  artifactKey: Guid(d54f0b10798a2fc4483d0bf8fc52a842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0054.png using Guid(d54f0b10798a2fc4483d0bf8fc52a842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8991c1600ca9ce2e2f47666e7a1ce9c3') in 0.009864 seconds 
-  Import took 0.014509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0001 - Copy.png
-  artifactKey: Guid(e420c2b2a6880d740956e6ca06535b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0001 - Copy.png using Guid(e420c2b2a6880d740956e6ca06535b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272393aab64568078df380bbd965ba82') in 0.008797 seconds 
-  Import took 0.012977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0052.png
-  artifactKey: Guid(8f78284a47eed684cb61eac109083638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0052.png using Guid(8f78284a47eed684cb61eac109083638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81cabf8ca27b8dec0d0d3300920c17f') in 0.008774 seconds 
-  Import took 0.013077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0016.png
-  artifactKey: Guid(c3db5751ffa166b4ab520984273ad4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0016.png using Guid(c3db5751ffa166b4ab520984273ad4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2231422ea2662281463443185eaf8337') in 0.008670 seconds 
-  Import took 0.013368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0055.png
-  artifactKey: Guid(fdfef3d79f230d845b2334675fc49ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0055.png using Guid(fdfef3d79f230d845b2334675fc49ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33dd5f9717c68602ef063a4acb0eaf7e') in 0.008848 seconds 
-  Import took 0.012711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0001 - Copy2.png
-  artifactKey: Guid(44133ab0e0e8fb3478e8674aea5c9d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0001 - Copy2.png using Guid(44133ab0e0e8fb3478e8674aea5c9d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdeaff2446d29717ee9606d340e3f87') in 0.008162 seconds 
-  Import took 0.012174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0027.png
-  artifactKey: Guid(e63a632c3d427194da7bb14427ef3b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0027.png using Guid(e63a632c3d427194da7bb14427ef3b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b86698a4aab17285c93c78fb0ee686') in 0.008297 seconds 
-  Import took 0.012988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0024.png
-  artifactKey: Guid(a37594ffff6143349977a65fc8153b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0024.png using Guid(a37594ffff6143349977a65fc8153b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744005fed7a56e6201d641e240ea6607') in 0.010147 seconds 
-  Import took 0.025510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0036.png
-  artifactKey: Guid(258c09f21f646184795c0fc905b4554b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0036.png using Guid(258c09f21f646184795c0fc905b4554b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245ac47aaa89d1fc2874c74219be5306') in 0.010001 seconds 
-  Import took 0.018634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0056.png
-  artifactKey: Guid(924f9984430bf4a4f80af8d0fd95fc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0056.png using Guid(924f9984430bf4a4f80af8d0fd95fc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75452d99c6759cc444b2c5d0ebf34805') in 0.009367 seconds 
-  Import took 0.013537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0003.png
-  artifactKey: Guid(c393b6074e3291c468ab1407b06da3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0003.png using Guid(c393b6074e3291c468ab1407b06da3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7559f78f86604f8e3cda82dac8c0eb68') in 0.008556 seconds 
-  Import took 0.012634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0026.png
-  artifactKey: Guid(5816199c6ef4a914fb8f377d4d3cc322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0026.png using Guid(5816199c6ef4a914fb8f377d4d3cc322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15398f595f8945e5a2ea946348e5daf8') in 0.009767 seconds 
-  Import took 0.014176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0010.png
-  artifactKey: Guid(1332a62c98a0baa43bc994656f4a495c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0010.png using Guid(1332a62c98a0baa43bc994656f4a495c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6803feb16e310a140a972d3ba49bb01') in 0.008303 seconds 
-  Import took 0.012349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0038.png
-  artifactKey: Guid(5499ae79fe3180940a46b71a7e6f90d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0038.png using Guid(5499ae79fe3180940a46b71a7e6f90d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613f417b760645a4280ba2df941ac308') in 0.008376 seconds 
-  Import took 0.012314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0020.png
-  artifactKey: Guid(a38f081c450ef11408a550d48613798a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0020.png using Guid(a38f081c450ef11408a550d48613798a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1733c6854e9e1f87700d511b86fcc35') in 0.008474 seconds 
-  Import took 0.012460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0047.png
-  artifactKey: Guid(d6a9c155adbdac947b5d6cfc69fd7ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0047.png using Guid(d6a9c155adbdac947b5d6cfc69fd7ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3a44b279f18df219236e7db9b92d1e') in 0.008726 seconds 
-  Import took 0.012604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0042.png
-  artifactKey: Guid(b2d63887fd4fef445bfeb5a1833a8dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0042.png using Guid(b2d63887fd4fef445bfeb5a1833a8dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a252540e52ad8e5d3ca6d4309d23422f') in 0.007997 seconds 
-  Import took 0.022609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Shaders/PNG/Flat/sprite_0004.png
-  artifactKey: Guid(90a93b797fc913a45b8959f84e161d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Flat/sprite_0004.png using Guid(90a93b797fc913a45b8959f84e161d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8aecdbaf17e1897d811e5f35017730c') in 0.008272 seconds 
-  Import took 0.012245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.213255 seconds.
-  path: Assets/Shaders/Grass.mat
-  artifactKey: Guid(a6d2c5d9ee2108a46ac57f711637ddd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Grass.mat using Guid(a6d2c5d9ee2108a46ac57f711637ddd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14dad9b3fc492742d9d5621ff155510') in 0.144658 seconds 
-  Import took 0.207332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.160565 seconds.
-  path: Assets/Shaders/Sharp Grass.mat
-  artifactKey: Guid(1b4ad8ca7712a3848b0c3e887f3568b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Sharp Grass.mat using Guid(1b4ad8ca7712a3848b0c3e887f3568b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04cdf6be662a84cb3d8e760e19caf2f') in 0.044224 seconds 
-  Import took 0.048493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Shaders/Wheat.mat
-  artifactKey: Guid(0e8989b6330079a4080af49f02307840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Wheat.mat using Guid(0e8989b6330079a4080af49f02307840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89607aba504234fd4fdc7c3cecfb0814') in 0.048482 seconds 
-  Import took 0.052615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.167129 seconds.
-  path: Assets/Scenes2/Grass Tutorial/LightingData.asset
-  artifactKey: Guid(121702296e2e48e4baf714786fccc581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes2/Grass Tutorial/LightingData.asset using Guid(121702296e2e48e4baf714786fccc581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0046ace1587883a900db1b1a2f90ec8') in 0.007863 seconds 
-  Import took 0.023978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Scenes2/Grass Tutorial/Lightmap-0_comp_dir.png
-  artifactKey: Guid(fbb8e64eb6e072f47821a37b76b28006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes2/Grass Tutorial/Lightmap-0_comp_dir.png using Guid(fbb8e64eb6e072f47821a37b76b28006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57a19e93fdef4e1d37bb0b15a34649c') in 0.008703 seconds 
-  Import took 0.019331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Scenes2/Grass Tutorial/Lightmap-0_comp_light.exr
-  artifactKey: Guid(fc8cd33c18e19954e899cfe1e42e134d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes2/Grass Tutorial/Lightmap-0_comp_light.exr using Guid(fc8cd33c18e19954e899cfe1e42e134d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cea123e973ae54405c6fc62bd92bb1') in 0.011776 seconds 
-  Import took 0.025306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Scenes2/Grass Tutorial/Lightmap-0_comp_dir.png
-  artifactKey: Guid(fbb8e64eb6e072f47821a37b76b28006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes2/Grass Tutorial/Lightmap-0_comp_dir.png using Guid(fbb8e64eb6e072f47821a37b76b28006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57a19e93fdef4e1d37bb0b15a34649c') in 0.004755 seconds 
-  Import took 0.008495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Scenes2/Grass Tutorial/Lightmap-0_comp_light.exr
-  artifactKey: Guid(fc8cd33c18e19954e899cfe1e42e134d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes2/Grass Tutorial/Lightmap-0_comp_light.exr using Guid(fc8cd33c18e19954e899cfe1e42e134d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cea123e973ae54405c6fc62bd92bb1') in 0.004586 seconds 
-  Import took 0.008256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Scenes2/Grass Tutorial/ReflectionProbe-0.exr
-  artifactKey: Guid(59b28a6d1bc695644a0ceb84c9b1e4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes2/Grass Tutorial/ReflectionProbe-0.exr using Guid(59b28a6d1bc695644a0ceb84c9b1e4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f75042c8b7edfe50adea2f38684371') in 0.015636 seconds 
-  Import took 0.019675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.109251 seconds.
-  path: Assets/Scenes2/Grass Tutorial/LightingData.asset
-  artifactKey: Guid(121702296e2e48e4baf714786fccc581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes2/Grass Tutorial/LightingData.asset using Guid(121702296e2e48e4baf714786fccc581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fce154f0b692847afe09a928320a6b') in 0.003227 seconds 
-  Import took 0.007865 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002761 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.016 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.0 MB.
-System memory in use after: 149.2 MB.
+Unloading 2942 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.9 MB.
+System memory in use after: 153.1 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3523.
-Total: 2.290000 ms (FindLiveObjects: 0.283300 ms CreateObjectMapping: 0.071700 ms MarkObjects: 1.918900 ms  DeleteObjects: 0.015000 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3401.
+Total: 3.117500 ms (FindLiveObjects: 0.334800 ms CreateObjectMapping: 0.074700 ms MarkObjects: 2.559900 ms  DeleteObjects: 0.146300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -790,1469 +81,192 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 123.178533 seconds.
-  path: Assets/Scenes/Grass/WaterDistortion.png
-  artifactKey: Guid(1b17147c57ce3794ea589ca142d71642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/WaterDistortion.png using Guid(1b17147c57ce3794ea589ca142d71642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c78f08a954db7a66ac29937d65bf42') in 0.044046 seconds 
-  Import took 0.048437 seconds .
+  path: Assets/Shaders/Wheat.mat
+  artifactKey: Guid(0e8989b6330079a4080af49f02307840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Wheat.mat using Guid(0e8989b6330079a4080af49f02307840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6201ac43e9f2394c9871458a32fdb74') in 0.262814 seconds 
+  Import took 0.289048 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 199.362958 seconds.
-  path: Assets/Materials/Ground Material.mat
-  artifactKey: Guid(0d4e9e8c2ac97ee4c9bf468eb43372ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Ground Material.mat using Guid(0d4e9e8c2ac97ee4c9bf468eb43372ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b1d3990bee8bf6366e6e1002165df2') in 0.115706 seconds 
-  Import took 0.208970 seconds .
+  Time since last request: 103.640636 seconds.
+  path: Assets/Models/Plane.blend
+  artifactKey: Guid(d452de6794fd34e4e8ec21a84a3a5602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.blend using Guid(d452de6794fd34e4e8ec21a84a3a5602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd58ba77c5a655c44a84edbfbb725632') in 0.072023 seconds 
+  Import took 0.096560 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Materials/Skybox_Mat.mat
-  artifactKey: Guid(dc61ea6646924f34ca70dd403a7a9875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Skybox_Mat.mat using Guid(dc61ea6646924f34ca70dd403a7a9875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e3e24572fac8d54248729e63471c86') in 0.010089 seconds 
-  Import took 0.013812 seconds .
+  Time since last request: 105.874269 seconds.
+  path: Assets/Models/Environment/Grass.obj
+  artifactKey: Guid(23f395e1f4e81ab40aa09845e9d6e0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Environment/Grass.obj using Guid(23f395e1f4e81ab40aa09845e9d6e0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca574c0249c3a7c85cef1e9acb73d5e5') in 0.075403 seconds 
+  Import took 0.098731 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Materials/Ground Material.mat
-  artifactKey: Guid(0d4e9e8c2ac97ee4c9bf468eb43372ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Ground Material.mat using Guid(0d4e9e8c2ac97ee4c9bf468eb43372ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b1d3990bee8bf6366e6e1002165df2') in 0.009103 seconds 
-  Import took 0.013270 seconds .
+  Time since last request: 0.002883 seconds.
+  path: Assets/Models/Environment/Grass.obj
+  artifactKey: Guid(23f395e1f4e81ab40aa09845e9d6e0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Environment/Grass.obj using Guid(23f395e1f4e81ab40aa09845e9d6e0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca574c0249c3a7c85cef1e9acb73d5e5') in 0.018653 seconds 
+  Import took 0.022909 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Materials/Skybox_Mat.mat
-  artifactKey: Guid(dc61ea6646924f34ca70dd403a7a9875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Skybox_Mat.mat using Guid(dc61ea6646924f34ca70dd403a7a9875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e3e24572fac8d54248729e63471c86') in 0.009727 seconds 
-  Import took 0.014424 seconds .
+  Time since last request: 31.446464 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/UXML/GraphView/BlackboardRow.uxml
+  artifactKey: Guid(5983202b0aaecde4382a697a6ba9afe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/UXML/GraphView/BlackboardRow.uxml using Guid(5983202b0aaecde4382a697a6ba9afe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bb8e77a141c04ce88b0e02d3678a07') in 0.020234 seconds 
+  Import took 0.041107 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.737871 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0003.png
-  artifactKey: Guid(32f44e20162fc2942b6663bfc5d55436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0003.png using Guid(32f44e20162fc2942b6663bfc5d55436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef855071ccc88964c91f6d5eda1d1fac') in 0.008007 seconds 
-  Import took 0.012505 seconds .
+  Time since last request: 0.000354 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/BooleanSlotControlView.uss
+  artifactKey: Guid(c72bf0f50e306d944a1e48a2bb299082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/BooleanSlotControlView.uss using Guid(c72bf0f50e306d944a1e48a2bb299082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd366379f35533e689b40abcc7f8a16') in 0.006747 seconds 
+  Import took 0.013883 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0026.png
-  artifactKey: Guid(6fc9006a7e44a2f4d8c20009febab8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0026.png using Guid(6fc9006a7e44a2f4d8c20009febab8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df50d816dca3aec0ecb819c5b55f537') in 0.004763 seconds 
-  Import took 0.008818 seconds .
+  Time since last request: 0.366732 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/White1px.png
+  artifactKey: Guid(127279d577f25ac4ea17dae3782e5074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/White1px.png using Guid(127279d577f25ac4ea17dae3782e5074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216f5d84c36f7ec2b72804b2d6624434') in 0.090749 seconds 
+  Import took 0.095330 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0015.png
-  artifactKey: Guid(aba1193433fbe1c42ab2fef928639b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0015.png using Guid(aba1193433fbe1c42ab2fef928639b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2198fa498b49b87cdbeb6b0d94b31651') in 0.008330 seconds 
-  Import took 0.012207 seconds .
+  Time since last request: 12.880045 seconds.
+  path: Assets/Presets/AudioCompressedInMemory.preset
+  artifactKey: Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/AudioCompressedInMemory.preset using Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95f9eb2204c529e7f24cd95e6fe3685') in 0.468935 seconds 
+  Import took 0.489708 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0038.png
-  artifactKey: Guid(e3b2d9f9050a343438231b4822f2333c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0038.png using Guid(e3b2d9f9050a343438231b4822f2333c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce2c7d334f7b35fea3086242d85fc98') in 0.004296 seconds 
-  Import took 0.008297 seconds .
+  Time since last request: 0.000268 seconds.
+  path: Assets/Presets/AudioStreaming.preset
+  artifactKey: Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/AudioStreaming.preset using Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001f1b82e99bfb8df6183995cb4f6c7b') in 0.022812 seconds 
+  Import took 0.027119 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0023.png
-  artifactKey: Guid(eed2fb360b593e74994a836c0a59ed99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0023.png using Guid(eed2fb360b593e74994a836c0a59ed99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6786969bfaaa6156a2134bf0800c58') in 0.004809 seconds 
-  Import took 0.008687 seconds .
+  Time since last request: 0.000254 seconds.
+  path: Assets/Presets/NormalTexture.preset
+  artifactKey: Guid(14a57cf3b9fa1c74b884aa7e0dcf1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/NormalTexture.preset using Guid(14a57cf3b9fa1c74b884aa7e0dcf1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757101356a4750270b85705f19bb94f5') in 0.032473 seconds 
+  Import took 0.062548 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0027.png
-  artifactKey: Guid(64145b0b7f479a8469307f33f70dec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0027.png using Guid(64145b0b7f479a8469307f33f70dec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c503dc7bec69c0b0062496decfcf30') in 0.007409 seconds 
-  Import took 0.011086 seconds .
+  Time since last request: 0.000353 seconds.
+  path: Assets/Presets/UtilityTexture.preset
+  artifactKey: Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/UtilityTexture.preset using Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc60bde849d06204b0cc3a282bde414b') in 0.024264 seconds 
+  Import took 0.028241 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0012.png
-  artifactKey: Guid(62f670a16473916448b66e5e8b28fd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0012.png using Guid(62f670a16473916448b66e5e8b28fd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c2512180e44f00ddbd8320f187a2df') in 0.007944 seconds 
-  Import took 0.011848 seconds .
+  Time since last request: 1.652377 seconds.
+  path: Assets/Prefabs/Grass.prefab
+  artifactKey: Guid(c465a87594ef6e948bd089b785ef12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grass.prefab using Guid(c465a87594ef6e948bd089b785ef12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad96171ae8c9e596ffc64377d6cde3a6') in 0.011384 seconds 
+  Import took 0.023903 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0020.png
-  artifactKey: Guid(51aba68a219fa4749a71abe69b2ea1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0020.png using Guid(51aba68a219fa4749a71abe69b2ea1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ba14c6d5ced2dd5d8fd85e37649ca1') in 0.008132 seconds 
-  Import took 0.012375 seconds .
+  Time since last request: 0.006613 seconds.
+  path: Assets/Prefabs/Grass.prefab
+  artifactKey: Guid(c465a87594ef6e948bd089b785ef12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grass.prefab using Guid(c465a87594ef6e948bd089b785ef12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad96171ae8c9e596ffc64377d6cde3a6') in 0.011454 seconds 
+  Import took 0.015976 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0039.png
-  artifactKey: Guid(bdddc7cbc53c1614b91069f65242e26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0039.png using Guid(bdddc7cbc53c1614b91069f65242e26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6311cf8f83e6a9900d84d534816cf732') in 0.013556 seconds 
-  Import took 0.042863 seconds .
+  Time since last request: 88.215323 seconds.
+  path: Assets/Prefabs/Grass.prefab
+  artifactKey: Guid(c465a87594ef6e948bd089b785ef12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grass.prefab using Guid(c465a87594ef6e948bd089b785ef12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7858ed1d2c3b9359c2310f57344eabc6') in 0.003714 seconds 
+  Import took 0.008932 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0008.png
-  artifactKey: Guid(949cd755d8fc82e4fa32df23a3e716f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0008.png using Guid(949cd755d8fc82e4fa32df23a3e716f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f357de36cafbd0d8f016b333cdb82b7') in 0.007520 seconds 
-  Import took 0.011323 seconds .
+  Time since last request: 60.366675 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/GradientControlView.uss
+  artifactKey: Guid(8d3443495105d4166996158d4b321c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/GradientControlView.uss using Guid(8d3443495105d4166996158d4b321c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345ffa98730063ba5fe29a3cf66a2cb6') in 0.028242 seconds 
+  Import took 0.032727 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0030.png
-  artifactKey: Guid(52907e9e0a3213748807749223f4a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0030.png using Guid(52907e9e0a3213748807749223f4a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0002a76ec8bca55a09afd6b0474a32a6') in 0.007548 seconds 
-  Import took 0.016032 seconds .
+  Time since last request: 0.000262 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/GradientSlotControlView.uss
+  artifactKey: Guid(76dc05b36584d4d0085b786ca1b29fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/GradientSlotControlView.uss using Guid(76dc05b36584d4d0085b786ca1b29fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74618b1a8c33dfd1070eb668b4a1b90') in 0.003106 seconds 
+  Import took 0.022792 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0009.png
-  artifactKey: Guid(5fef91920a77a4240866d07094a4cda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0009.png using Guid(5fef91920a77a4240866d07094a4cda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2c2f43b1bfa5df7ffa376d2e31e47e') in 0.007635 seconds 
-  Import took 0.011325 seconds .
+  Time since last request: 36.168044 seconds.
+  path: Assets/Prefabs/Grass.prefab
+  artifactKey: Guid(c465a87594ef6e948bd089b785ef12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grass.prefab using Guid(c465a87594ef6e948bd089b785ef12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24116622c3bd628b82d50084928c24b5') in 0.024442 seconds 
+  Import took 0.038616 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0014.png
-  artifactKey: Guid(9c4588d9831b5f94890d4065cddb928b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0014.png using Guid(9c4588d9831b5f94890d4065cddb928b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7610fd62b030b58cfc0caf1d76c41833') in 0.008569 seconds 
-  Import took 0.012755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0006.png
-  artifactKey: Guid(c191df5a5efb6ae4fa2d3f79c40db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0006.png using Guid(c191df5a5efb6ae4fa2d3f79c40db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0797ae5b0c31042a558a1a528448e70') in 0.007769 seconds 
-  Import took 0.011636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0028.png
-  artifactKey: Guid(569ccaa47f7ce7b49a496d298aeaaef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0028.png using Guid(569ccaa47f7ce7b49a496d298aeaaef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8630caae7d094d25571dd34287a75f') in 0.008218 seconds 
-  Import took 0.017124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0041.png
-  artifactKey: Guid(52ea48b30e08f2c47a566e10c3caefc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0041.png using Guid(52ea48b30e08f2c47a566e10c3caefc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229e42e5e440d593245cebdbd4b89858') in 0.004668 seconds 
-  Import took 0.019087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0032.png
-  artifactKey: Guid(381d2d39a46098844bb74c14a2a0f869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0032.png using Guid(381d2d39a46098844bb74c14a2a0f869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a30a7251ad7e5ad22481087dfdcc7e2') in 0.007756 seconds 
-  Import took 0.016469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0013.png
-  artifactKey: Guid(8e20ccd04f02aad4faede0e1b4f28437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0013.png using Guid(8e20ccd04f02aad4faede0e1b4f28437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad31469cb3e7dc7a685d1b39722fb529') in 0.008067 seconds 
-  Import took 0.011818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0035.png
-  artifactKey: Guid(b2fec4208d92c104993b662cb98fe758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0035.png using Guid(b2fec4208d92c104993b662cb98fe758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9726ef60104034fc0d7e15d266b915') in 0.004890 seconds 
-  Import took 0.009279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0022.png
-  artifactKey: Guid(29b12d5b686b99a4d960150a359cac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0022.png using Guid(29b12d5b686b99a4d960150a359cac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8507e9210fbe8a538d3b2a90f35a51d4') in 0.004941 seconds 
-  Import took 0.008511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0033.png
-  artifactKey: Guid(7c85e87b21f15454f8ac5192c2245957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0033.png using Guid(7c85e87b21f15454f8ac5192c2245957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c0366de07d493be1a7f110db0615f1') in 0.008397 seconds 
-  Import took 0.012739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0025.png
-  artifactKey: Guid(0e52cdb155a288648935846fd05bab9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0025.png using Guid(0e52cdb155a288648935846fd05bab9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02efe898775bbea93294726075a97e70') in 0.008638 seconds 
-  Import took 0.016496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0011.png
-  artifactKey: Guid(4caf8c008d693b641b3c7c667d7bdac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0011.png using Guid(4caf8c008d693b641b3c7c667d7bdac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ef0476d70c732c1d6d976a92ca03f8') in 0.009584 seconds 
-  Import took 0.013318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0037.png
-  artifactKey: Guid(c306e045081ca6e4bbd8bb17665da86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0037.png using Guid(c306e045081ca6e4bbd8bb17665da86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7469ac9fba8059cc26d93b756a2d8c82') in 0.004822 seconds 
-  Import took 0.008666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0040.png
-  artifactKey: Guid(a928ca7629dd61548a47d3a6bdd85636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0040.png using Guid(a928ca7629dd61548a47d3a6bdd85636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e8c08921083aa329ca68c9399bf630') in 0.007926 seconds 
-  Import took 0.012127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0043.png
-  artifactKey: Guid(f04b423552b6ac74db91807dbc8f8d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0043.png using Guid(f04b423552b6ac74db91807dbc8f8d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4a01c148933349e8206ecfb40a4763') in 0.008128 seconds 
-  Import took 0.019272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0016.png
-  artifactKey: Guid(229ec5959891d344bb8a346f765a814d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0016.png using Guid(229ec5959891d344bb8a346f765a814d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f83ee430dd21041e21aaf73016ce5da') in 0.007570 seconds 
-  Import took 0.021312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0019.png
-  artifactKey: Guid(dedc66169804eba42b8d436bdbf840fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0019.png using Guid(dedc66169804eba42b8d436bdbf840fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f876b723e19de203053721942925e0d4') in 0.007837 seconds 
-  Import took 0.011512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0018.png
-  artifactKey: Guid(6854150b51c547541b6fb4333e25dcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0018.png using Guid(6854150b51c547541b6fb4333e25dcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964a02da90d880116e82746452c31c42') in 0.005356 seconds 
-  Import took 0.015559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0042.png
-  artifactKey: Guid(74b170bc2f45374499f26911cdea443a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0042.png using Guid(74b170bc2f45374499f26911cdea443a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce62d01b426b31ff1a88b5e347f5c76') in 0.007520 seconds 
-  Import took 0.018485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0004.png
-  artifactKey: Guid(9db4d3a187c0e7f45bd6ffee290c6dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0004.png using Guid(9db4d3a187c0e7f45bd6ffee290c6dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a41cbf073ac46710e2df9a0fbc39b5b') in 0.004756 seconds 
-  Import took 0.008825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0007.png
-  artifactKey: Guid(5fa562ec3a8ac9e4ba87e4fd96ae8ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0007.png using Guid(5fa562ec3a8ac9e4ba87e4fd96ae8ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b27bf7fb9124cffbfe81014e10db0d') in 0.007626 seconds 
-  Import took 0.011505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0010.png
-  artifactKey: Guid(a701114d046622d40be81e0e516376f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0010.png using Guid(a701114d046622d40be81e0e516376f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04daa40668caf4d02385d535b8f54bdd') in 0.007973 seconds 
-  Import took 0.011973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0024.png
-  artifactKey: Guid(ca183c5c0e616c34384ef7fd282c6354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0024.png using Guid(ca183c5c0e616c34384ef7fd282c6354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5fd667cd5447236ba7009db55387cd') in 0.008325 seconds 
-  Import took 0.012737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0031.png
-  artifactKey: Guid(c01f063ebbc541b479e0a3382e65a78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0031.png using Guid(c01f063ebbc541b479e0a3382e65a78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1878e6d60419f5303fcea3d8eb3f3dd3') in 0.007426 seconds 
-  Import took 0.011004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0017.png
-  artifactKey: Guid(9facf99497acbf7409ce55eabce806c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0017.png using Guid(9facf99497acbf7409ce55eabce806c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc612f7bc9cf97f6769aad1572aa898') in 0.008631 seconds 
-  Import took 0.012996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0005.png
-  artifactKey: Guid(3d1ef572cb26338498ec70a9e5dd78ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0005.png using Guid(3d1ef572cb26338498ec70a9e5dd78ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ee5ac3a96289d872c82819bec95859') in 0.007847 seconds 
-  Import took 0.012240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0036.png
-  artifactKey: Guid(69019d605d90c1a458c6e75fd5191f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0036.png using Guid(69019d605d90c1a458c6e75fd5191f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f69e87cea207de1f4fd1a27e96525e') in 0.004822 seconds 
-  Import took 0.008569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0017.png
-  artifactKey: Guid(9facf99497acbf7409ce55eabce806c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0017.png using Guid(9facf99497acbf7409ce55eabce806c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc612f7bc9cf97f6769aad1572aa898') in 0.004667 seconds 
-  Import took 0.008749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0021.png
-  artifactKey: Guid(55e7fd4133618eb45b886322184e378e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0021.png using Guid(55e7fd4133618eb45b886322184e378e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40896f8460c658a125f8d325e79c99ac') in 0.007664 seconds 
-  Import took 0.019426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0034.png
-  artifactKey: Guid(a8e46d1d501c763448b8817ed60f35fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0034.png using Guid(a8e46d1d501c763448b8817ed60f35fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b4a796ac7ce15b728a3f0e0df9a24b') in 0.007572 seconds 
-  Import took 0.011364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0029.png
-  artifactKey: Guid(46e2fa25253498447bd4ce41e70c440a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0029.png using Guid(46e2fa25253498447bd4ce41e70c440a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9a194158e9678ad487be2b873f1740') in 0.004983 seconds 
-  Import took 0.009736 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002664 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.043 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2811 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.9 MB.
-System memory in use after: 149.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3562.
-Total: 2.384600 ms (FindLiveObjects: 0.278400 ms CreateObjectMapping: 0.076000 ms MarkObjects: 2.013700 ms  DeleteObjects: 0.015500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 43.592401 seconds.
+  Time since last request: 242.610888 seconds.
   path: Assets/Materials/Grass Material.mat
   artifactKey: Guid(c8976415c4f653047b283abdb1e49588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Grass Material.mat using Guid(c8976415c4f653047b283abdb1e49588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2711791017a1697f30f97b9380da64e') in 0.137889 seconds 
-  Import took 0.142726 seconds .
+Start importing Assets/Materials/Grass Material.mat using Guid(c8976415c4f653047b283abdb1e49588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41d23d803bf72ae260bf1d9482c9e13') in 0.011769 seconds 
+  Import took 0.026680 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 226.006306 seconds.
-  path: Assets/Materials/Grass Material2.mat
-  artifactKey: Guid(e9978ac13aae135429892c211f10e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Grass Material2.mat using Guid(e9978ac13aae135429892c211f10e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74218e62900500705fcadfa469c688bd') in 0.012538 seconds 
-  Import took 0.016939 seconds .
+  Time since last request: 16.062020 seconds.
+  path: Assets/Materials/Grass Material.mat
+  artifactKey: Guid(c8976415c4f653047b283abdb1e49588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass Material.mat using Guid(c8976415c4f653047b283abdb1e49588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bbc73c4c76ca4d7914113397b2a9cc') in 0.010715 seconds 
+  Import took 0.054585 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002853 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.003 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2811 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.0 MB.
-System memory in use after: 149.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3601.
-Total: 2.491300 ms (FindLiveObjects: 0.398500 ms CreateObjectMapping: 0.074800 ms MarkObjects: 2.003700 ms  DeleteObjects: 0.013400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 127.259384 seconds.
-  path: Assets/Scenes/Grass/Grass/ReflectionProbe-0.exr
-  artifactKey: Guid(a159a48997dc8c8439dbf7dab061f60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/Grass/ReflectionProbe-0.exr using Guid(a159a48997dc8c8439dbf7dab061f60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d927eadd9f1251469a968c01e174f8d') in 0.062504 seconds 
-  Import took 0.066795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0001 - Copy.png
-  artifactKey: Guid(c1398753de7fe2846bfc6a759a7c117d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0001 - Copy.png using Guid(c1398753de7fe2846bfc6a759a7c117d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c12566aefdac4449b2d45e85dc53289') in 0.009386 seconds 
-  Import took 0.013360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Scenes/Grass/Grass/ReflectionProbe-0.exr
-  artifactKey: Guid(a159a48997dc8c8439dbf7dab061f60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/Grass/ReflectionProbe-0.exr using Guid(a159a48997dc8c8439dbf7dab061f60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d927eadd9f1251469a968c01e174f8d') in 0.007347 seconds 
-  Import took 0.011162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0001.png
-  artifactKey: Guid(489ff7ea2845f5c41b1ab626d2892003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0001.png using Guid(489ff7ea2845f5c41b1ab626d2892003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5497e00eb906d1b84dd384fe83cbb76') in 0.008460 seconds 
-  Import took 0.012544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0001 - Copy2.png
-  artifactKey: Guid(8712f67cd0068a248871bba6d62e7c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0001 - Copy2.png using Guid(8712f67cd0068a248871bba6d62e7c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a52a1234ef14c894b5b49e94135087') in 0.005012 seconds 
-  Import took 0.008800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0002.png
-  artifactKey: Guid(fe287d2e41f250b4188073e1e4f093bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0002.png using Guid(fe287d2e41f250b4188073e1e4f093bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0b288f394671018f631a30aab2aefa') in 0.005594 seconds 
-  Import took 0.068042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0001 - Copy2.png
-  artifactKey: Guid(8712f67cd0068a248871bba6d62e7c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0001 - Copy2.png using Guid(8712f67cd0068a248871bba6d62e7c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a52a1234ef14c894b5b49e94135087') in 0.005141 seconds 
-  Import took 0.008752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0002.png
-  artifactKey: Guid(fe287d2e41f250b4188073e1e4f093bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0002.png using Guid(fe287d2e41f250b4188073e1e4f093bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0b288f394671018f631a30aab2aefa') in 0.004696 seconds 
-  Import took 0.008778 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.101234 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0044.png
-  artifactKey: Guid(f9c7dbba2fd077c47bf094892f807653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0044.png using Guid(f9c7dbba2fd077c47bf094892f807653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d0690258e3d095d7bfa378be5b0552') in 0.005193 seconds 
-  Import took 0.171570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0053.png
-  artifactKey: Guid(9a3f861dc0576464f9851be5a3b22128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0053.png using Guid(9a3f861dc0576464f9851be5a3b22128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27ad241076e980950eea5e34b6f2dfc') in 0.005243 seconds 
-  Import took 0.996112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0064.png
-  artifactKey: Guid(8dffedcf82dd53940b4fad2a778a5fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0064.png using Guid(8dffedcf82dd53940b4fad2a778a5fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ae27403f51cb31677f294edaf649ea') in 0.008667 seconds 
-  Import took 0.059403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0060.png
-  artifactKey: Guid(fc78fb3fd0fec2446acd9f1694696454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0060.png using Guid(fc78fb3fd0fec2446acd9f1694696454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1e0570a66ab27d55fe869f3da1623e') in 0.008716 seconds 
-  Import took 0.022558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0048.png
-  artifactKey: Guid(c039782bb8713954abff34003db7f907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0048.png using Guid(c039782bb8713954abff34003db7f907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b251091bd171dbb325b3e6ceaf6cca1c') in 0.008234 seconds 
-  Import took 0.012322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0055.png
-  artifactKey: Guid(9569b728ab7e7e14d8c005ebc511eeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0055.png using Guid(9569b728ab7e7e14d8c005ebc511eeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d92592fbc0d6b4be6fd3d3677d87536') in 0.004635 seconds 
-  Import took 0.025831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0052.png
-  artifactKey: Guid(3b352c16b9493164b934d7ad7d7cae40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0052.png using Guid(3b352c16b9493164b934d7ad7d7cae40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c16d1aac7f449bc7db4622c0e3b628') in 0.008108 seconds 
-  Import took 0.012494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0065.png
-  artifactKey: Guid(001682275cc24ef439ed7957ac5b4ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0065.png using Guid(001682275cc24ef439ed7957ac5b4ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd490e0ab33c121301a588675b4c29f9') in 0.008811 seconds 
-  Import took 0.012556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0067.png
-  artifactKey: Guid(10f2aa9896769b3429888cffee0e8f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0067.png using Guid(10f2aa9896769b3429888cffee0e8f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a258e80e82ef96bbe7eb91ed73d9db5') in 0.008302 seconds 
-  Import took 0.012546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0062.png
-  artifactKey: Guid(8ce933aff241829469e14c2cb500e73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0062.png using Guid(8ce933aff241829469e14c2cb500e73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fd43a527495619585abf98b6d224e7') in 0.008642 seconds 
-  Import took 0.012800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0069.png
-  artifactKey: Guid(bc39a6d83851eba49932e4581a3868d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0069.png using Guid(bc39a6d83851eba49932e4581a3868d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd648d9a6b3c98890ece3e31185649ff8') in 0.008315 seconds 
-  Import took 0.012517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0068.png
-  artifactKey: Guid(5db71124f1184174baf47d5454656375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0068.png using Guid(5db71124f1184174baf47d5454656375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e931b93fb2a32cecea12bea21a159bd') in 0.009744 seconds 
-  Import took 0.013388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0063.png
-  artifactKey: Guid(566ee4f17625712438092edc7d54a199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0063.png using Guid(566ee4f17625712438092edc7d54a199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a43eaa168bd99e8788cea4b7e26605b') in 0.009045 seconds 
-  Import took 0.013534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0064.png
-  artifactKey: Guid(55fd2ddf94456c9428f03d2f806b98f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0064.png using Guid(55fd2ddf94456c9428f03d2f806b98f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6e37caf366cb7113aa989427d66a3e') in 0.004793 seconds 
-  Import took 0.043167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0060.png
-  artifactKey: Guid(01438aed9b89d4145b34e4695d936bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0060.png using Guid(01438aed9b89d4145b34e4695d936bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb494cf07d5760e67e9061276e142d03') in 0.005121 seconds 
-  Import took 0.015480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0049.png
-  artifactKey: Guid(cc3b56270df8fa949b6243dc662bd802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0049.png using Guid(cc3b56270df8fa949b6243dc662bd802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7832ac434cf2192f9afe6d408cc857') in 0.004966 seconds 
-  Import took 0.008857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0059.png
-  artifactKey: Guid(ea72e62dcb7163c4695fbced0601c3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0059.png using Guid(ea72e62dcb7163c4695fbced0601c3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584041129587daf7688dde37e56ae941') in 0.009917 seconds 
-  Import took 0.022657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0061.png
-  artifactKey: Guid(aa6a3abbc5568cb4da1fce331898bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0061.png using Guid(aa6a3abbc5568cb4da1fce331898bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd100e2dc698708f7e681a13be36533') in 0.008219 seconds 
-  Import took 0.012253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0056.png
-  artifactKey: Guid(65ef4ab993cf6b74bb050f6ffbbdbe80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0056.png using Guid(65ef4ab993cf6b74bb050f6ffbbdbe80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc965622f1cf42f45591aff5b27fbc8') in 0.014208 seconds 
-  Import took 0.018308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0067.png
-  artifactKey: Guid(f5d9cfa93814a504f8afcca8f4a0679d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0067.png using Guid(f5d9cfa93814a504f8afcca8f4a0679d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5d99c3052aee668e797a8bf628d937') in 0.004846 seconds 
-  Import took 0.009420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0058.png
-  artifactKey: Guid(6e67fd408cb3fa94dafefa9ad1bc8573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0058.png using Guid(6e67fd408cb3fa94dafefa9ad1bc8573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5624c7f1098260a4dbfe40d4ada365eb') in 0.010254 seconds 
-  Import took 0.014982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0065.png
-  artifactKey: Guid(5bfac6cc02f42f94a8fc5c8fea330495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0065.png using Guid(5bfac6cc02f42f94a8fc5c8fea330495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387d67f3b62dcca2c9f509cab3969aff') in 0.006304 seconds 
-  Import took 0.010310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0050.png
-  artifactKey: Guid(834b57c723122d040aceec8224a6ca5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0050.png using Guid(834b57c723122d040aceec8224a6ca5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd213d7e23a6febfeffd3f099eb4a10') in 0.009324 seconds 
-  Import took 0.013537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0059.png
-  artifactKey: Guid(85259d21b1dc48547a68cc283351530b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0059.png using Guid(85259d21b1dc48547a68cc283351530b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1077527712c688f4e4bfabc4afeca11') in 0.004838 seconds 
-  Import took 0.008881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0066.png
-  artifactKey: Guid(99cecdf244ff2ed4cb5d62fe608a486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0066.png using Guid(99cecdf244ff2ed4cb5d62fe608a486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85439cbf57dea5da7a5baeb1644844df') in 0.008384 seconds 
-  Import took 0.013007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0057.png
-  artifactKey: Guid(fb4ec2acd7016f347a11689c1f664429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0057.png using Guid(fb4ec2acd7016f347a11689c1f664429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c311288d3a2fd52024b75b44b70e324') in 0.027105 seconds 
-  Import took 0.049683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0061.png
-  artifactKey: Guid(ec87199a5599bb8499276f71f8cae858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0061.png using Guid(ec87199a5599bb8499276f71f8cae858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb4a34a6ed308924a75a4a54e85ab06') in 0.005154 seconds 
-  Import took 0.012593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0062.png
-  artifactKey: Guid(c56cccb6ca5cf2349906d7b4fcd44ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0062.png using Guid(c56cccb6ca5cf2349906d7b4fcd44ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2389dd7fc9824552e9f378f55d241d21') in 0.004853 seconds 
-  Import took 0.008847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0054.png
-  artifactKey: Guid(8b4378bb89638ec498fd6ef865f57876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0054.png using Guid(8b4378bb89638ec498fd6ef865f57876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62cf063bd6179ce3d900c098d56417ff') in 0.009736 seconds 
-  Import took 0.020900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0066.png
-  artifactKey: Guid(4834988b7e97d5840b8f0041e35abb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0066.png using Guid(4834988b7e97d5840b8f0041e35abb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a619006cdccee4ae6779bab7a0a53b84') in 0.004747 seconds 
-  Import took 0.013924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0063.png
-  artifactKey: Guid(b53cb596c9a46c441861a6917b729d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0063.png using Guid(b53cb596c9a46c441861a6917b729d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675e91a8596c19e60e4f901704470521') in 0.005033 seconds 
-  Import took 0.008859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0046.png
-  artifactKey: Guid(90be3984dcd6e444c845c276d808ee6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0046.png using Guid(90be3984dcd6e444c845c276d808ee6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2b08c9fd972a555f413c192340afd5') in 0.007942 seconds 
-  Import took 0.012084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0068.png
-  artifactKey: Guid(7ceb586f92b7d934abfe57bd8f2346c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0068.png using Guid(7ceb586f92b7d934abfe57bd8f2346c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efc773f969e10615627a843d07212a6') in 0.004877 seconds 
-  Import took 0.008668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0047.png
-  artifactKey: Guid(d401ece145c4c174b940d3c2374b6c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0047.png using Guid(d401ece145c4c174b940d3c2374b6c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9396b33c98e97b6c757b31f49f2d0dc0') in 0.007583 seconds 
-  Import took 0.012057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0058.png
-  artifactKey: Guid(15578703783ef90428362c0e24a8cc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0058.png using Guid(15578703783ef90428362c0e24a8cc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc6a749b83e9d5e5e495b2c9fd40234') in 0.004599 seconds 
-  Import took 0.008978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0045.png
-  artifactKey: Guid(2aaca5936d9a7324485f982822203195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0045.png using Guid(2aaca5936d9a7324485f982822203195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d4add9cc7274b84d59d4e9b9532071') in 0.005019 seconds 
-  Import took 0.008897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001940 seconds.
-  path: Assets/Scenes/Grass/PNG/Flat/sprite_0047.png
-  artifactKey: Guid(d401ece145c4c174b940d3c2374b6c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Flat/sprite_0047.png using Guid(d401ece145c4c174b940d3c2374b6c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9396b33c98e97b6c757b31f49f2d0dc0') in 0.004492 seconds 
-  Import took 0.008291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.968486 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0069.png
-  artifactKey: Guid(daaf62690b824e7468d7c14e5d29db85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0069.png using Guid(daaf62690b824e7468d7c14e5d29db85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c125e4094923a8d31a9ad326cf65ddc0') in 0.005092 seconds 
-  Import took 0.009155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0073.png
-  artifactKey: Guid(6abd0e692e4ad7446939504851308732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0073.png using Guid(6abd0e692e4ad7446939504851308732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4eac2d05903f2ec660c3059f7a9380') in 0.008386 seconds 
-  Import took 0.050625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0075.png
-  artifactKey: Guid(cde4e21bb86b6454f98e8fe0f1cefb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0075.png using Guid(cde4e21bb86b6454f98e8fe0f1cefb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90514a096ef020c4f1332de531979c1') in 0.031478 seconds 
-  Import took 0.212226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0075.png
-  artifactKey: Guid(35982d1a1ca299243a114eed3d4b5790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0075.png using Guid(35982d1a1ca299243a114eed3d4b5790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65123500cd5fe38fb0b21a474f779baa') in 0.004940 seconds 
-  Import took 0.008488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0077.png
-  artifactKey: Guid(4132ad19abf77194d9d42dcb18a8d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0077.png using Guid(4132ad19abf77194d9d42dcb18a8d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852a8b616b42b7c8a6ad813878f76114') in 0.007924 seconds 
-  Import took 0.012114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0069.png
-  artifactKey: Guid(daaf62690b824e7468d7c14e5d29db85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0069.png using Guid(daaf62690b824e7468d7c14e5d29db85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c125e4094923a8d31a9ad326cf65ddc0') in 0.004860 seconds 
-  Import took 0.008972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0071.png
-  artifactKey: Guid(d3246bb974d8d4c4bad4a816972ee019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0071.png using Guid(d3246bb974d8d4c4bad4a816972ee019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92b1acde6a3ba97baa9b4a4d7c67276') in 0.008088 seconds 
-  Import took 0.012143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0076.png
-  artifactKey: Guid(61ae57f20dbbbe94e893848f4592c01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0076.png using Guid(61ae57f20dbbbe94e893848f4592c01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2927a37cf3f810a8518922dc0b0b8de2') in 0.008471 seconds 
-  Import took 0.012514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0073.png
-  artifactKey: Guid(0f828352249462441a0570501db66a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0073.png using Guid(0f828352249462441a0570501db66a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a047381d2c713ea6d7bd91b9bf2d417') in 0.004914 seconds 
-  Import took 0.008974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0079.png
-  artifactKey: Guid(c3c25a6929010d046a364df94e18ab47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0079.png using Guid(c3c25a6929010d046a364df94e18ab47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229fd80fd9ffa6b0d09a2abcfef1ed16') in 0.009883 seconds 
-  Import took 0.014327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0071.png
-  artifactKey: Guid(ec0db4b1f1a560441bfc2b06f279648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0071.png using Guid(ec0db4b1f1a560441bfc2b06f279648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70a52d584e91d2e929d3509bbafd203') in 0.005075 seconds 
-  Import took 0.009056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0072.png
-  artifactKey: Guid(b007cec9d3b460544b13f48e02983979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0072.png using Guid(b007cec9d3b460544b13f48e02983979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504f58c364420f3c292f95ab9cdd4822') in 0.009716 seconds 
-  Import took 0.083726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0077.png
-  artifactKey: Guid(6738e793b33be2e4ab2ec84519af7676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0077.png using Guid(6738e793b33be2e4ab2ec84519af7676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41962d82551e07651cebb16885d37670') in 0.015352 seconds 
-  Import took 0.098983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0078.png
-  artifactKey: Guid(c12e2d32f7033ef4b986ae0ba29a0f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0078.png using Guid(c12e2d32f7033ef4b986ae0ba29a0f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ad657253477452d442592e93b31155') in 0.007968 seconds 
-  Import took 0.103098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0072.png
-  artifactKey: Guid(06f3af48b10acfe4194f36fe0d64d15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0072.png using Guid(06f3af48b10acfe4194f36fe0d64d15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f702eca64c7dca6c7ac929bcc0d56a64') in 0.004981 seconds 
-  Import took 0.008872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0078.png
-  artifactKey: Guid(24362026bd689b44d84a39788a3038ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0078.png using Guid(24362026bd689b44d84a39788a3038ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8085a7d06387d09063f9a07ed3ed50') in 0.004568 seconds 
-  Import took 0.008619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0070.png
-  artifactKey: Guid(45b489ce61b795649a8923061e032c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0070.png using Guid(45b489ce61b795649a8923061e032c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66796306ef08a81f83bbce47e502325') in 0.009830 seconds 
-  Import took 0.013988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0074.png
-  artifactKey: Guid(aaab57ff00ab68a4da236d610a5ec735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0074.png using Guid(aaab57ff00ab68a4da236d610a5ec735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ce897ee233b7a30193a01295da9a96') in 0.008048 seconds 
-  Import took 0.066114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0084.png
-  artifactKey: Guid(24985727865efe9459cc514c76277304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0084.png using Guid(24985727865efe9459cc514c76277304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb90da90b0312256774ee06bd23787fa') in 0.007976 seconds 
-  Import took 0.011815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0092.png
-  artifactKey: Guid(f308ad0b76ccc6c48a807253dfbb600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0092.png using Guid(f308ad0b76ccc6c48a807253dfbb600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da583c348962a4abb0b08c2e8d09980') in 0.007790 seconds 
-  Import took 0.069316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0080.png
-  artifactKey: Guid(ac7a0b56ca22c9b4693926784fb29315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0080.png using Guid(ac7a0b56ca22c9b4693926784fb29315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0177a4314b607e8215efeeee07bb089f') in 0.007877 seconds 
-  Import took 0.011610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0087.png
-  artifactKey: Guid(5d660115897e1f04e9edeb52f49a2c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0087.png using Guid(5d660115897e1f04e9edeb52f49a2c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1408a69b2fcdb2fb610974233d2a81') in 0.008581 seconds 
-  Import took 0.182415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0091.png
-  artifactKey: Guid(b3836068cfc7c2843b3c8ae7a011406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0091.png using Guid(b3836068cfc7c2843b3c8ae7a011406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4231ef3e345917bcea7aedbf71a247') in 0.008235 seconds 
-  Import took 0.020935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0091.png
-  artifactKey: Guid(b66bc519f50119d4db080fdf0c0f681e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0091.png using Guid(b66bc519f50119d4db080fdf0c0f681e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949046c3e1c73bf5c07b0b647c5a87b3') in 0.005317 seconds 
-  Import took 0.009114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0082.png
-  artifactKey: Guid(31fd8d6c2eb3291448eb3ef9b8751882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0082.png using Guid(31fd8d6c2eb3291448eb3ef9b8751882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9220836ea48e75806ba6079900f4ed0') in 0.007635 seconds 
-  Import took 0.023604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0092.png
-  artifactKey: Guid(2e65b1e231ef28b4dbbb7d2685f4c529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0092.png using Guid(2e65b1e231ef28b4dbbb7d2685f4c529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8be4515cd51e83796f1224178564f8d') in 0.005042 seconds 
-  Import took 0.026251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0087.png
-  artifactKey: Guid(1a7464f64bb53ee4d9c7788b89988db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0087.png using Guid(1a7464f64bb53ee4d9c7788b89988db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6949be5554267baf6b6ed6268af84ece') in 0.007845 seconds 
-  Import took 0.011586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0090.png
-  artifactKey: Guid(f4653afe2d8aeb843994af8b336e8852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0090.png using Guid(f4653afe2d8aeb843994af8b336e8852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4030bc2500280664addaa458211207') in 0.007968 seconds 
-  Import took 0.012041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0082.png
-  artifactKey: Guid(bba6c4914d15c8d428e68e10cdb4bc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0082.png using Guid(bba6c4914d15c8d428e68e10cdb4bc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c8979fc77fd4ecc6419d862a339c9f') in 0.008353 seconds 
-  Import took 0.022562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0090.png
-  artifactKey: Guid(7c84331e53c40bb4ca9b651b3c30aee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0090.png using Guid(7c84331e53c40bb4ca9b651b3c30aee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8819e5f7438431404242b8a7c1d5c779') in 0.005274 seconds 
-  Import took 0.017696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0086.png
-  artifactKey: Guid(f1e3f3597d4af0141bca599ea66ec316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0086.png using Guid(f1e3f3597d4af0141bca599ea66ec316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd999e976b4a48372af3db66197967d') in 0.009280 seconds 
-  Import took 0.025921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0083.png
-  artifactKey: Guid(d3ae2b83eba307e4b941511fc7b6f140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0083.png using Guid(d3ae2b83eba307e4b941511fc7b6f140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d1d2b41d35e091f1afc8d4e7c81ca5') in 0.008571 seconds 
-  Import took 0.015628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0085.png
-  artifactKey: Guid(76d179d92cc0ae547a6e04453578c3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0085.png using Guid(76d179d92cc0ae547a6e04453578c3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a463796a40eb840055617bf4aa3c24e3') in 0.009165 seconds 
-  Import took 0.024960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0084.png
-  artifactKey: Guid(4cff1eb6c1c38544db08ba18d39d282f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0084.png using Guid(4cff1eb6c1c38544db08ba18d39d282f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e51e0a736cd8b0b9f53a62f6512dfb4') in 0.005467 seconds 
-  Import took 0.015378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0093.png
-  artifactKey: Guid(ea23deb0c18801049af2131bd1672c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0093.png using Guid(ea23deb0c18801049af2131bd1672c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c1c2824b65791117ad5a5e10cfa604') in 0.008902 seconds 
-  Import took 0.012559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0093.png
-  artifactKey: Guid(8069a83673f1bc341b03481ed7a09946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0093.png using Guid(8069a83673f1bc341b03481ed7a09946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e10b2d77b7700a041b4c7c3e2e428f') in 0.005718 seconds 
-  Import took 0.009456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0079.png
-  artifactKey: Guid(3774d02839910ca47abb512cb208fba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0079.png using Guid(3774d02839910ca47abb512cb208fba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7f6a53b4a1cd530979c02ff40d5fa1') in 0.004747 seconds 
-  Import took 0.020161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0094.png
-  artifactKey: Guid(10fa7f86ccdf3d641ad0273fd53e14ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0094.png using Guid(10fa7f86ccdf3d641ad0273fd53e14ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5899c81c4b596acfa651bb42fdd064') in 0.009332 seconds 
-  Import took 0.013231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0081.png
-  artifactKey: Guid(8db005877d1cc5547b082f0a49686b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0081.png using Guid(8db005877d1cc5547b082f0a49686b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280e4382d9b842625112c3cb7aa5487f') in 0.008936 seconds 
-  Import took 0.012621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0088.png
-  artifactKey: Guid(e7981153332659246abfe602b43eb852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0088.png using Guid(e7981153332659246abfe602b43eb852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8d5e85f33a02c499289678e4f13482') in 0.008570 seconds 
-  Import took 0.012319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0089.png
-  artifactKey: Guid(180061dc7920c8f43817d10ab1ec1122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0089.png using Guid(180061dc7920c8f43817d10ab1ec1122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cefd4464059ec9ccbaa59f772dcfa18') in 0.008783 seconds 
-  Import took 0.012719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0089.png
-  artifactKey: Guid(6d819977c9781bb47856d2f96f5027e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0089.png using Guid(6d819977c9781bb47856d2f96f5027e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a670ec802899a897f95a6869cc236185') in 0.005808 seconds 
-  Import took 0.009935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0070.png
-  artifactKey: Guid(55377b6b5ce2d954f91163db2cb3ad6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0070.png using Guid(55377b6b5ce2d954f91163db2cb3ad6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bba10c69bb8d20f9299093fa5780ab0') in 0.005011 seconds 
-  Import took 0.008821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0080.png
-  artifactKey: Guid(7a677709e969c2c4b8422175988284c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0080.png using Guid(7a677709e969c2c4b8422175988284c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83cde0836788f8dc18d1dc3cd7eda66') in 0.004465 seconds 
-  Import took 0.008002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0085.png
-  artifactKey: Guid(8dbec8d23e5aa5c49858fb66a9e05b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0085.png using Guid(8dbec8d23e5aa5c49858fb66a9e05b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b62b2b1b37b4ffcd4db90442bb63042') in 0.004441 seconds 
-  Import took 0.021566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0076.png
-  artifactKey: Guid(4e46db3cc09c3ba4d8f894b6ba76115c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0076.png using Guid(4e46db3cc09c3ba4d8f894b6ba76115c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae94b04f3ad105cffb633119d3766482') in 0.004730 seconds 
-  Import took 0.012505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0081.png
-  artifactKey: Guid(d21cf2ed8a282724281e48a285951ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0081.png using Guid(d21cf2ed8a282724281e48a285951ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd231ce3083e21552589db1161902fa0a') in 0.004937 seconds 
-  Import took 0.008710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0083.png
-  artifactKey: Guid(a990e20b37bcd1b48b3d22d63aaee7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0083.png using Guid(a990e20b37bcd1b48b3d22d63aaee7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad48953b48496b142762c03818c7423') in 0.004233 seconds 
-  Import took 0.008168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0088.png
-  artifactKey: Guid(abb691e4294979f4992119e1884d2de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0088.png using Guid(abb691e4294979f4992119e1884d2de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e0da67e46bfe3a31bf8e859efc7d48') in 0.004503 seconds 
-  Import took 0.008118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0074.png
-  artifactKey: Guid(91432f79c4692354d8455802448a81e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0074.png using Guid(91432f79c4692354d8455802448a81e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609f4a73879cfc72cf62c95287df6c37') in 0.004524 seconds 
-  Import took 0.008349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0086.png
-  artifactKey: Guid(2e15e6c843982e641b21af51b626ef33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0086.png using Guid(2e15e6c843982e641b21af51b626ef33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e57041be4f2a6db1d37560c998d7642') in 0.004559 seconds 
-  Import took 0.008458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0083.png
-  artifactKey: Guid(a990e20b37bcd1b48b3d22d63aaee7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0083.png using Guid(a990e20b37bcd1b48b3d22d63aaee7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad48953b48496b142762c03818c7423') in 0.004566 seconds 
-  Import took 0.008400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.225536 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0094.png
-  artifactKey: Guid(0e122e6757882594bb50037e11387520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0094.png using Guid(0e122e6757882594bb50037e11387520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934d0a56e530964fb0ecceb827d37f76') in 0.007702 seconds 
-  Import took 0.011735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0096.png
-  artifactKey: Guid(f8f4891dab9b9924da80421ae822f58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0096.png using Guid(f8f4891dab9b9924da80421ae822f58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84939159f7fb8b9534af4b7e46dfae92') in 0.008238 seconds 
-  Import took 0.012397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0097.png
-  artifactKey: Guid(1b52d21fe07c31d4ea3e66a0a017cbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0097.png using Guid(1b52d21fe07c31d4ea3e66a0a017cbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1031025b97c767f11eb5a0c263dfef2b') in 0.009166 seconds 
-  Import took 0.012889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0097.png
-  artifactKey: Guid(5efebaefdca07d444aed862146afdb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0097.png using Guid(5efebaefdca07d444aed862146afdb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc940119f3cd84f8ff58ed540c1eee8') in 0.008060 seconds 
-  Import took 0.011832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0099.png
-  artifactKey: Guid(9557476b786865745974207fc737f4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0099.png using Guid(9557476b786865745974207fc737f4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed04b7f67fbfb215c349eff75d489f8') in 0.009614 seconds 
-  Import took 0.049770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0098.png
-  artifactKey: Guid(fcda4973f741c584c9dab62c6b846cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0098.png using Guid(fcda4973f741c584c9dab62c6b846cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d604d3b459ba5e049349abee221a1c5') in 0.008185 seconds 
-  Import took 0.011864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0095.png
-  artifactKey: Guid(3431b13b51f51594596b255f63c0aa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0095.png using Guid(3431b13b51f51594596b255f63c0aa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9932994754839a706ea9e729e1ccf350') in 0.008635 seconds 
-  Import took 0.032658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0101.png
-  artifactKey: Guid(be165dc14b66366469ecf4e069504d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0101.png using Guid(be165dc14b66366469ecf4e069504d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdfd2610f91fe95132f6713ffcde515') in 0.008361 seconds 
-  Import took 0.012013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0101.png
-  artifactKey: Guid(dc3773bf21dd47741afee12ae441f9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0101.png using Guid(dc3773bf21dd47741afee12ae441f9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619de6362999d852eb5fa49a33513d27') in 0.004889 seconds 
-  Import took 0.009093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0095.png
-  artifactKey: Guid(3431b13b51f51594596b255f63c0aa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0095.png using Guid(3431b13b51f51594596b255f63c0aa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9932994754839a706ea9e729e1ccf350') in 0.004679 seconds 
-  Import took 0.008406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0099.png
-  artifactKey: Guid(47d27ba20f82ff648b28b68c778a3dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0099.png using Guid(47d27ba20f82ff648b28b68c778a3dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac2f65176ea0d16c5ea814f0c18321d') in 0.010423 seconds 
-  Import took 0.014186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0100.png
-  artifactKey: Guid(4cede2b90dbb43143bc8851f8f97d7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0100.png using Guid(4cede2b90dbb43143bc8851f8f97d7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d320cee2a9b60017616b9e3fc7b4067') in 0.008743 seconds 
-  Import took 0.012678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0095.png
-  artifactKey: Guid(6afd6fda6ea43434a8846f6edc3d2eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0095.png using Guid(6afd6fda6ea43434a8846f6edc3d2eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d8f14da95625dc1922911597e25eb4') in 0.004787 seconds 
-  Import took 0.020891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0096.png
-  artifactKey: Guid(7a3a8b0ead7b851469719970addf19c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0096.png using Guid(7a3a8b0ead7b851469719970addf19c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0193f412c6acfcf3ef62d3666aaf9131') in 0.008082 seconds 
-  Import took 0.011781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Shaders/PNG/Shaded/sprite_0100.png
-  artifactKey: Guid(3f47b6392d72fbf4cb2cbe96d4b9121a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PNG/Shaded/sprite_0100.png using Guid(3f47b6392d72fbf4cb2cbe96d4b9121a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60582dbe5482dbd4918aede31875aee0') in 0.004762 seconds 
-  Import took 0.008670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Scenes/Grass/PNG/Shaded/sprite_0098.png
-  artifactKey: Guid(c9cce1dc0f425cc4ea102ba6cc5a4358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Grass/PNG/Shaded/sprite_0098.png using Guid(c9cce1dc0f425cc4ea102ba6cc5a4358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86bf62c79d867cfeb86beae76a00381') in 0.007870 seconds 
-  Import took 0.022853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.288940 seconds.
-  path: Assets/Materials/Grass Material2.mat
-  artifactKey: Guid(e9978ac13aae135429892c211f10e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Grass Material2.mat using Guid(e9978ac13aae135429892c211f10e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab57787b1106e37c254d53003bff1299') in 0.101554 seconds 
-  Import took 0.106252 seconds .
-
-========================================================================
 Received Import Request.
-  Time since last request: 12.663840 seconds.
-  path: Assets/Materials/Grass Material2.mat
-  artifactKey: Guid(e9978ac13aae135429892c211f10e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Grass Material2.mat using Guid(e9978ac13aae135429892c211f10e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76579c6d5295e9a4b02ee86fe5ebdcd2') in 0.019287 seconds 
-  Import took 0.023564 seconds .
+  Time since last request: 72.268770 seconds.
+  path: Assets/TerrainData_aee52a4b-33de-476a-bc30-56e0bd8ef043.asset
+  artifactKey: Guid(0a23c7d1736ec8f43bf49275faab25fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_aee52a4b-33de-476a-bc30-56e0bd8ef043.asset using Guid(0a23c7d1736ec8f43bf49275faab25fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaa18358456d43ca95ae589ffff9324') in 0.100867 seconds 
+  Import took 0.118747 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.043682 seconds.
-  path: Assets/Materials/Grass Material2.mat
-  artifactKey: Guid(e9978ac13aae135429892c211f10e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Grass Material2.mat using Guid(e9978ac13aae135429892c211f10e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa148ed6b1623ee5472844cd6c6260bf') in 0.013756 seconds 
-  Import took 0.018403 seconds .
+  Time since last request: 7.262864 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/MaterialGraph.uss
+  artifactKey: Guid(466e6b269ff1900438e46c66af51cef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/MaterialGraph.uss using Guid(466e6b269ff1900438e46c66af51cef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fccff15cfec74f874b29ae8cf757bc1') in 0.019482 seconds 
+  Import took 0.023697 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.401261 seconds.
-  path: Assets/Materials/Grass Material2.mat
-  artifactKey: Guid(e9978ac13aae135429892c211f10e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Grass Material2.mat using Guid(e9978ac13aae135429892c211f10e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6decf11d4560c2c42fba344512ec43c') in 0.010846 seconds 
-  Import took 0.015385 seconds .
+  Time since last request: 0.002147 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/MaterialGraphView.uss
+  artifactKey: Guid(c95091ab1e1b926498a5938a7d0e1ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/MaterialGraphView.uss using Guid(c95091ab1e1b926498a5938a7d0e1ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98b3b545610ca4515d234d2699020c1') in 0.002615 seconds 
+  Import took 0.006946 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.144245 seconds.
-  path: Assets/Materials/Grass Material2.mat
-  artifactKey: Guid(e9978ac13aae135429892c211f10e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Grass Material2.mat using Guid(e9978ac13aae135429892c211f10e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725aed4efef7a5c326ad05b28dea1db4') in 0.013753 seconds 
-  Import took 0.018569 seconds .
+  Time since last request: 0.005690 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/MaterialNodeView.uss
+  artifactKey: Guid(c47827ee6a0eadd4288dede8e3993da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/MaterialNodeView.uss using Guid(c47827ee6a0eadd4288dede8e3993da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2605eb36e31c4ae2629406b73469133d') in 0.003814 seconds 
+  Import took 0.026360 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002716 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.989 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2811 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.4 MB.
-System memory in use after: 149.6 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3640.
-Total: 2.423600 ms (FindLiveObjects: 0.302600 ms CreateObjectMapping: 0.081400 ms MarkObjects: 2.023800 ms  DeleteObjects: 0.015100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
 Received Import Request.
-  Time since last request: 31.714920 seconds.
-  path: Assets/Materials/Grass Material2.mat
-  artifactKey: Guid(e9978ac13aae135429892c211f10e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Grass Material2.mat using Guid(e9978ac13aae135429892c211f10e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c34145d197dc276870d5d73ac1adb48') in 0.137763 seconds 
-  Import took 0.153560 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002726 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.026 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2811 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.5 MB.
-System memory in use after: 149.7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3679.
-Total: 2.398100 ms (FindLiveObjects: 0.250200 ms CreateObjectMapping: 0.075200 ms MarkObjects: 2.056200 ms  DeleteObjects: 0.015600 ms)
+  Time since last request: 190.592346 seconds.
+  path: Assets/Models/Environment/Grass.mtl
+  artifactKey: Guid(275a8de5f9b864a42b892190be28f6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Environment/Grass.mtl using Guid(275a8de5f9b864a42b892190be28f6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca881a01c66074b15869401bb31b8da4') in 0.004515 seconds 
+  Import took 0.035957 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
