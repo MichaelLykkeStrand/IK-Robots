@@ -265,7 +265,7 @@
     "m_ActiveSubTarget": {
         "m_Id": "93036484cb9c48e9a99ccdb9f7ad261f"
     },
-    "m_SurfaceType": 1,
+    "m_SurfaceType": 0,
     "m_AlphaMode": 0,
     "m_TwoSided": false,
     "m_AlphaClip": false,
@@ -397,9 +397,9 @@
     "m_ShaderOutputName": "Emission",
     "m_StageCapability": 2,
     "m_Value": {
-        "x": 0.3679245114326477,
-        "y": 0.3679245114326477,
-        "z": 0.3679245114326477
+        "x": 0.38679248094558718,
+        "y": 0.38679248094558718,
+        "z": 0.38679248094558718
     },
     "m_DefaultValue": {
         "x": 0.0,
