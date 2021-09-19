@@ -22,7 +22,7 @@ public class Cloud : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (spawning)
         {
@@ -39,7 +39,7 @@ public class Cloud : MonoBehaviour
         {
             Vector3 windVector = cloudController.Windspeed;
             Vector3 correctedWindVector = new Vector3(windVector.x, 0,windVector.y);
-            transform.position += correctedWindVector * Time.deltaTime;
+            transform.position += correctedWindVector * Time.fixedDeltaTime;
         }
         else
         {
