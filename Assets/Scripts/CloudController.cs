@@ -41,15 +41,11 @@ public class CloudController : MonoBehaviour
         float y = Random.Range(height-heightVariance, height + heightVariance);
         float z = Random.Range(-despawnDistance, despawnDistance)/ 1.4f;
 
-        Debug.Log("X: " + x + " Y: " + y + " Z: " + z);
-
         x = x + origin.position.x;
         z = z + origin.position.z;
 
 
-
         int prefabIndex = UnityEngine.Random.Range(0, cloudPrefabs.Length);
-        Debug.Log("CloudIndex: "+prefabIndex);
         GameObject cloud = Instantiate(cloudPrefabs[prefabIndex], new Vector3(x, y, z), Quaternion.identity);
         clouds.Add(cloud);
     }
