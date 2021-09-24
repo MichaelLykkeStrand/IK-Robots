@@ -27,13 +27,26 @@ public class PlayerMove : MonoBehaviour
         float vertical = Input.GetAxis("Vertical") * speed * Time.deltaTime;
         Vector3 dir = new Vector3(horizontal, 0f, vertical).normalized;
 
-        if(dir.magnitude >= 0.1f)
-        {
-            float targetAngle = Mathf.Atan2(dir.x, dir.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
-            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
-            transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
-            rigidbody.velocity = (transform.forward * speed);
+        Vector3 difference = cam.position - transform.position;
+        float yRotation = Mathf.Atan2(difference.x, difference.z) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, yRotation-180, 0), turnSmoothTime);
+        
+
+        if(vertical > 0)
+        {
+            rigidbody.MovePosition(transform.position + transform.forward * speed * Time.deltaTime);
+        }
+        if(vertical < 0)
+        {
+            rigidbody.MovePosition(transform.position + transform.forward * -speed * Time.deltaTime);
+        }
+        if(horizontal > 0)
+        {
+            rigidbody.MovePosition(transform.position + transform.right * speed * Time.deltaTime);
+        }
+        if(horizontal < 0){
+            rigidbody.MovePosition(transform.position + transform.right * -speed * Time.deltaTime);
         }
 
     }

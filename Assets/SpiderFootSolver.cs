@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-// Credits to: https://youtu.be/swYBGqXtHEY
+// With insiration from Credits: https://youtu.be/swYBGqXtHEY
+// & Unity IKFootSolver
 public class SpiderFootSolver : MonoBehaviour
 {
     public Transform[] legTargets;
@@ -26,6 +27,7 @@ public class SpiderFootSolver : MonoBehaviour
 
     private float velocityMultiplier = 15f;
 
+    //Raycast from sky to find foot placement position
     static Vector3[] MatchToSurfaceFromAbove(Vector3 point, float halfRange, Vector3 up)
     {
         Vector3[] res = new Vector3[2];
@@ -61,6 +63,7 @@ public class SpiderFootSolver : MonoBehaviour
         lastBodyPos = transform.position;
     }
 
+    //Move leg with index to new target position
     IEnumerator PerformStep(int index, Vector3 targetPoint)
     {
         Vector3 startPos = lastLegPositions[index];
@@ -94,6 +97,7 @@ public class SpiderFootSolver : MonoBehaviour
         {
             desiredPositions[i] = transform.TransformPoint(defaultLegPositions[i]);
 
+            //Check which leg to move by getting their distance
             float distance = Vector3.ProjectOnPlane(desiredPositions[i] + velocity * velocityMultiplier - lastLegPositions[i], transform.up).magnitude;
             if (distance > maxDistance)
             {
