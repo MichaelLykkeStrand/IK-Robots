@@ -9,13 +9,24 @@ public class Item
 {
     private bool isStackable = false;
     private string name;
-    public int amount;
+    private string displayName;
+    private int amount;
 
 
     Item(String name)
     {
         this.name = name;
+        this.displayName = name;
+    }
+
+    Item(String name, String displayName)
+    {
+        this.name = name;
+        this.displayName = displayName;
     }
 
     public bool IsStackable { get => isStackable; set => isStackable = value; }
+    public string DisplayName { get => displayName; set => displayName = value; }
+    public string Name { get => name;}
+    public int Amount { get => amount; set => amount = value; }
 }

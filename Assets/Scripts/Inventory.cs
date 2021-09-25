@@ -20,22 +20,37 @@ public class Inventory
             {
                 if(invItem == item)
                 {
-                    invItem.amount += item.amount;
+                    invItem.Amount += item.Amount;
                 }
             }
-
             if (!inInventory)
             {
                 itemList.Add(item);
                 OnItemAdded?.Invoke(this, EventArgs.Empty);
             }
         }
-        
     }
 
     public void Remove(Item item)
     {
-        OnItemRemoved?.Invoke(this, EventArgs.Empty);
+        foreach (var invItem in itemList)
+        {
+            int amount = item.Amount;
+            if (invItem.Name == item.Name)
+            {
+                if(amount - item.Amount < 0)
+                {
+                    amount = 0;
+                }
+                else
+                {
+                    amount -= item.Amount;
+                }
+                invItem.Amount = amount;
+                OnItemRemoved?.Invoke(this, EventArgs.Empty);
+            }
+        }
+
     }
 
     public List<Item> GetItemList()
