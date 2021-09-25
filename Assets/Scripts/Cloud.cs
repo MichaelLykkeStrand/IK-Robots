@@ -28,11 +28,6 @@ public class Cloud : MonoBehaviour
         {
             transform.DOScale(originalScale, spawnTime);
             spawning = false;
-            /*
-            Color color = GetComponent<MeshRenderer>().material.color;
-            color.a = 0.1f;
-            GetComponent<MeshRenderer>().material.color = new Color(color.r,color.g,color.b,color.a);
-            */
         }
         float distance = Vector3.Distance(transform.position, target.position);
         if(distance < cloudController.DespawnDistance)
