@@ -15,19 +15,27 @@ public class Inventory
     {
         if (item.IsStackable)
         {
-            bool inInventory = false;
             foreach (var invItem in itemList)
             {
-                if(invItem == item)
+                if(invItem.Name == item.Name)
                 {
-                    invItem.Amount += item.Amount;
+                    Item.Add(invItem, item);
                 }
             }
-            if (!inInventory)
+            if (item.Amount != 0)
             {
                 itemList.Add(item);
                 OnItemAdded?.Invoke(this, EventArgs.Empty);
             }
+            else
+            {
+                OnItemAdded?.Invoke(this, EventArgs.Empty);
+            }
+        }
+        else
+        {
+            itemList.Add(item);
+            OnItemAdded?.Invoke(this, EventArgs.Empty);
         }
     }
 
