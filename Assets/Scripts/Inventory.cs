@@ -54,7 +54,7 @@ public class Inventory
                 {
                     amount -= item.Amount;
                 }
-                invItem.Amount = amount;
+                //invItem.Amount = amount;
                 OnItemRemoved?.Invoke(this, EventArgs.Empty);
             }
         }
