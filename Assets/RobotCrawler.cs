@@ -23,6 +23,7 @@ public class RobotCrawler : MonoBehaviour
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
+
             if (Physics.Raycast(ray, out hit, distance))
             {
                 agent.SetDestination(hit.point);
@@ -34,7 +35,6 @@ public class RobotCrawler : MonoBehaviour
                 eventArgs.Target = hit.point;
                 OnNewTargetEvent?.Invoke(this, eventArgs);
             }
-
         }
     }
 
