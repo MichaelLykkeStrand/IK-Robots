@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
+
 public class Cloud : MonoBehaviour
 {
     private CloudController cloudController;
@@ -15,6 +16,7 @@ public class Cloud : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Health health = GetComponent<Health>();
         originalScale = transform.localScale;
         transform.localScale = new Vector3(0,0,0);
         cloudController = CloudController.instance;
