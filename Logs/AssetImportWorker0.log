@@ -4,7 +4,7 @@ OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Ph
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+P:\UnityEditors\2020.3.13f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,14 +15,14 @@ P:/Unity/IK Robots/IK-Robots
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63241
+52055
 Successfully changed project path to: P:/Unity/IK Robots/IK-Robots
 P:/Unity/IK Robots/IK-Robots
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 52.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 62.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path P:/UnityEditors/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path P:/Unity/IK Robots/IK-Robots/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
@@ -33,41 +33,41 @@ Direct3D:
     Driver:   27.21.14.5751
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Mono path[0] = 'P:/UnityEditors/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'P:/UnityEditors/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'P:/UnityEditors/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001566 seconds.
+Register platform support module: P:/UnityEditors/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001186 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 52.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 71.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.894 seconds
+- Completed reload, in  0.857 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003033 seconds.
+Registered in 0.003887 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.474 seconds
+- Completed reload, in  1.596 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3147 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.1 MB.
-System memory in use after: 165.3 MB.
+Unloading 3148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.0 MB.
+System memory in use after: 166.2 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3610.
-Total: 2.776800 ms (FindLiveObjects: 0.334700 ms CreateObjectMapping: 0.106100 ms MarkObjects: 2.118800 ms  DeleteObjects: 0.216200 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3611.
+Total: 2.956700 ms (FindLiveObjects: 0.367400 ms CreateObjectMapping: 0.094400 ms MarkObjects: 2.262500 ms  DeleteObjects: 0.230900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -81,40 +81,63 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Models/Environment/Mushroom01.blend
-  artifactKey: Guid(6c41f25847eadaf44900ac086d8f85ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/Mushroom01.blend using Guid(6c41f25847eadaf44900ac086d8f85ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a975fdb04af15221bdd3c9fc500bd73') in 0.193660 seconds 
-  Import took 0.197818 seconds .
+  path: Assets/Shaders/OceanWater.shadergraph
+  artifactKey: Guid(b69d9842123da7748924e760db27afa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/OceanWater.shadergraph using Guid(b69d9842123da7748924e760db27afa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3a92b83b4ab8df063759e0b6225132') in 0.055550 seconds 
+  Import took 0.094047 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 350.172204 seconds.
-  path: Assets/Models/Environment/Mushroom01.blend
-  artifactKey: Guid(6c41f25847eadaf44900ac086d8f85ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/Mushroom01.blend using Guid(6c41f25847eadaf44900ac086d8f85ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c8e03e52659210feaee77f199d3082') in 0.040302 seconds 
-  Import took 0.055888 seconds .
+  Time since last request: 49.752959 seconds.
+  path: Assets/Shaders/OceanWater 1.mat
+  artifactKey: Guid(6b18b02175e0fc1489813ecf13a4310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/OceanWater 1.mat using Guid(6b18b02175e0fc1489813ecf13a4310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1bb2cf399d23ba539d01f5b87c6c09') in 0.236511 seconds 
+  Import took 0.256526 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 50.645545 seconds.
-  path: Assets/Models/Environment/Mushroom01.blend
-  artifactKey: Guid(6c41f25847eadaf44900ac086d8f85ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/Mushroom01.blend using Guid(6c41f25847eadaf44900ac086d8f85ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa81d1f424d9542a5f27fe54ed002ab6') in 0.029792 seconds 
-  Import took 0.050720 seconds .
+  Time since last request: 0.006531 seconds.
+  path: Assets/Shaders/OceanWater 1.mat
+  artifactKey: Guid(6b18b02175e0fc1489813ecf13a4310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/OceanWater 1.mat using Guid(6b18b02175e0fc1489813ecf13a4310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1bb2cf399d23ba539d01f5b87c6c09') in 0.028766 seconds 
+  Import took 0.034159 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.452046 seconds.
-  path: Assets/Models/Environment/Mushroom01.blend
-  artifactKey: Guid(6c41f25847eadaf44900ac086d8f85ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/Mushroom01.blend using Guid(6c41f25847eadaf44900ac086d8f85ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289a4a84dfaf3e21cb8c71e01ce3628a') in 0.029214 seconds 
-  Import took 0.046383 seconds .
+  Time since last request: 188.334771 seconds.
+  path: Assets/Shaders/OceanWater.mat
+  artifactKey: Guid(2ad198de3be4bb445bca8ad2bc73d9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/OceanWater.mat using Guid(2ad198de3be4bb445bca8ad2bc73d9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e1afb2b73517b3a97f956d8d6ec600') in 0.024830 seconds 
+  Import took 0.030507 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 30.153296 seconds.
-  path: Assets/Models/Environment/Mushroom01.blend
-  artifactKey: Guid(6c41f25847eadaf44900ac086d8f85ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/Mushroom01.blend using Guid(6c41f25847eadaf44900ac086d8f85ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7950d9d57f01a0884751a883ed3fa8') in 0.030856 seconds 
-  Import took 0.057079 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003223 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.063 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3011 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.7 MB.
+System memory in use after: 161.9 MB.
 
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3697.
+Total: 2.525200 ms (FindLiveObjects: 0.292100 ms CreateObjectMapping: 0.107600 ms MarkObjects: 2.110000 ms  DeleteObjects: 0.014600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

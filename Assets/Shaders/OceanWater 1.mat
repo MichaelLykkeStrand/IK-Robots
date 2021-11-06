@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: OceanWater
+  m_Name: OceanWater 1
   m_Shader: {fileID: -6465566751694194690, guid: b69d9842123da7748924e760db27afa5,
     type: 3}
   m_ShaderKeywords: 
@@ -33,15 +33,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_00dfd2e239ca4dd3a857dfe7f45a3c06: 0.56
+    - Vector1_00dfd2e239ca4dd3a857dfe7f45a3c06: 0.61
     - Vector1_1c6fc02383394c13aeca64dad8936ba5: 0
     - Vector1_5d5846990c3547f6958d5692551227a6: 0.34
     - Vector1_6530852ab35747b984b5e52375eb3cd1: 0.21
     - Vector1_a9295c4b6a23450eb6e5c023ec30147a: 1
-    - Vector1_ac4e6e4b2acc486f94b8edc8d4db082b: 0.1
+    - Vector1_ac4e6e4b2acc486f94b8edc8d4db082b: 0.06
     - Vector1_ac5e559e18ed43c29b543a4302a84463: 0.1
     - Vector1_b3ee958e3b8b4865b1a21c6f7ac6d050: 1
-    - Vector1_dfc8d0802ebe47d883e80eae1253a30d: 0.65
+    - Vector1_dfc8d0802ebe47d883e80eae1253a30d: 0.4
     - Vector1_e149540a4c914981bd8756dec512b6f0: 145.18
     - Vector1_eec7842906644767a56a7cf692197386: 10
     m_Colors:
