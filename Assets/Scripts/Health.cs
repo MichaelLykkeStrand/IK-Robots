@@ -12,6 +12,7 @@ public class Health : MonoBehaviour
     public event EventHandler OnHit;
     public event EventHandler OnDeath;
     public event EventHandler OnHeal;
+    public event EventHandler OnChange;
 
     private bool isHit;
     private bool isDead;
@@ -70,10 +71,11 @@ public class Health : MonoBehaviour
         {
             this.isDead = true;
             this.currentHealth = MIN_HEALTH;
-            OnDeath.Invoke(this, EventArgs.Empty);
+            OnDeath?.Invoke(this, EventArgs.Empty);
 
         }
-        OnHit.Invoke(this, EventArgs.Empty);
+        OnHit?.Invoke(this, EventArgs.Empty);
+        OnChange?.Invoke(this, EventArgs.Empty);
     }
 
     /// <param name="_heal">the heal amount.</param>
@@ -82,7 +84,8 @@ public class Health : MonoBehaviour
         if (currentHealth != MIN_HEALTH && !isDead)
         {
             this.currentHealth = Mathf.Clamp(currentHealth + heal, MIN_HEALTH, this.maxHealth);
-            OnHeal.Invoke(this, EventArgs.Empty);
+            OnHeal?.Invoke(this, EventArgs.Empty);
+            OnChange?.Invoke(this, EventArgs.Empty);
         }
     }
 
@@ -95,7 +98,8 @@ public class Health : MonoBehaviour
         if (currentHealth != MIN_HEALTH && revive)
         {
             this.isDead = false;
-            OnHeal.Invoke(this, EventArgs.Empty);
+            OnHeal?.Invoke(this, EventArgs.Empty);
+            OnChange?.Invoke(this, EventArgs.Empty);
         }
     }
 }
