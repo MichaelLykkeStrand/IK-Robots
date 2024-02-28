@@ -1,5 +1,5 @@
-using UnityEngine;
 using DG.Tweening;
+using UnityEngine;
 
 
 public class Cloud : MonoBehaviour
@@ -11,17 +11,16 @@ public class Cloud : MonoBehaviour
     [SerializeField] private bool preWarm = false;
     private bool spawning = true;
     private bool deSpawning = false;
-    // Start is called before the first frame update
+
     void Start()
     {
         Health health = GetComponent<Health>();
         originalScale = transform.localScale;
-        transform.localScale = new Vector3(0,0,0);
+        transform.localScale = new Vector3(0, 0, 0);
         cloudController = CloudController.instance;
         target = Camera.main.transform;
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         if (spawning)
@@ -30,10 +29,10 @@ public class Cloud : MonoBehaviour
             spawning = false;
         }
         float distance = Vector3.Distance(transform.position, target.position);
-        if(distance < cloudController.DespawnDistance)
+        if (distance < cloudController.DespawnDistance)
         {
             Vector3 windVector = cloudController.Windspeed;
-            Vector3 correctedWindVector = new Vector3(windVector.x, 0,windVector.y);
+            Vector3 correctedWindVector = new Vector3(windVector.x, 0, windVector.y);
             transform.position += correctedWindVector * Time.fixedDeltaTime;
         }
         else
@@ -41,12 +40,12 @@ public class Cloud : MonoBehaviour
             if (!deSpawning)
             {
                 deSpawning = true;
-                transform.DOScale(0, spawnTime).OnComplete(() => {
+                transform.DOScale(0, spawnTime).OnComplete(() =>
+                {
                     cloudController.Remove(this.gameObject);
                     Destroy(this.gameObject);
                 });
             }
         }
     }
-
 }
